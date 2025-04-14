@@ -1,0 +1,259 @@
+-- StreamWave Database DDL Script:
+
+CREATE TABLE Streamer(
+	StreamerID VARCHAR(20),	
+	ChannelName VARCHAR(20),
+	S_Reg_Date DATE,
+	S_Password VARCHAR(20),
+	S_Email	VARCHAR(50),
+	Age SMALLINT,
+	Country VARCHAR(30),
+	Instagram VARCHAR(30),
+	Twitter VARCHAR(30),
+	Facebook VARCHAR(30),
+	PRIMARY KEY (StreamerID)
+);
+
+CREATE TABLE Stream(
+	StreamID VARCHAR(20),
+            StreamerID VARCHAR(20), 
+	Title VARCHAR(100),
+	Quality VARCHAR(10),
+	Type VARCHAR(20),
+	Stream_Date DATE,		
+	Duration VARCHAR(10),		
+	Language VARCHAR(20),
+	PRIMARY KEY (StreamID), 
+            FOREIGN KEY (StreamerID) REFERENCES Streamer(StreamerID)
+);
+
+CREATE TABLE Viewer(
+	ViewerID VARCHAR(20),
+            Username VARCHAR(20), 
+	V_Reg_Date DATE,
+	V_Password VARCHAR(20),
+	V_Email VARCHAR(50),
+	V_Country VARCHAR(30),
+	V_Age SMALLINT,
+	PRIMARY KEY (ViewerID) 
+);
+
+CREATE TABLE StreamLang(
+	StreamerID VARCHAR(20),
+	Language VARCHAR(20),	
+	PRIMARY KEY (StreamerID, Language),
+	FOREIGN KEY (StreamerID) REFERENCES Streamer(StreamerID)
+		ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE Advertisements(
+	AdvID VARCHAR(20),
+	Ad_Name VARCHAR(50),
+	Company_Name VARCHAR(50),
+	Ad_Category VARCHAR(30),
+	Revenue_Split_Ratio DECIMAL(5,2),
+	StreamerID VARCHAR(20),
+	Ad_Earnings INT,
+	PRIMARY KEY (AdvID, StreamerID),
+	FOREIGN KEY (StreamerID) REFERENCES Streamer(StreamerID)
+		ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE Shown_On(		
+	AdvID VARCHAR(20),
+	StreamerID VARCHAR(20),
+	StreamID VARCHAR(20),
+	Ad_Duration INT,
+	Ad_timestamp TIMESTAMP,
+	PRIMARY KEY (AdvID, StreamID, Ad_timestamp),
+	FOREIGN KEY (AdvID, StreamerID) REFERENCES Advertisements(AdvID, StreamerID)
+		ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY (StreamID) REFERENCES Stream(StreamID)
+		ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+
+
+CREATE TABLE Stream_Cat(
+	StreamID VARCHAR(20),
+	Category VARCHAR(20),
+	PRIMARY KEY (StreamID, Category),
+	FOREIGN KEY (StreamID) REFERENCES Stream(StreamID)
+		ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE Streamer_Bans(
+	StreamerID VARCHAR(20),
+	No_of_Reports INT,
+	Reason_for_Ban VARCHAR(200),
+	Date_of_Ban DATE,
+	Status_of_Ban BOOL,
+	Date_of_Unban DATE,
+	PRIMARY KEY (StreamerID, Date_of_Ban,Reason_for_Ban),
+	FOREIGN KEY (StreamerID) REFERENCES Streamer(StreamerID)
+		ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE Sponsorships_Platform_Deals(
+	Membership_No CHAR(10),
+	Sponsorship_No CHAR(10),
+	Mem_Type VARCHAR(20),
+	Mem_Duration VARCHAR(20),
+	Mem_Date DATE,
+	Spons_Company VARCHAR(50),
+	Spons_Date DATE,
+	Spons_Duration VARCHAR(20),
+	PRIMARY KEY (Membership_No, Sponsorship_No)
+);
+
+CREATE TABLE Given_To(
+	Membership_No CHAR(10),
+	Sponsorship_No CHAR(10),
+	StreamerID VARCHAR(20),
+	Avg_views INT,
+	Total_Videos INT,
+	Valid_For_Member BOOL, 
+	Valid_For_Sponsor BOOL,
+	PRIMARY KEY (Membership_No, Sponsorship_No, StreamerID),
+	FOREIGN KEY (Membership_No, Sponsorship_No) REFERENCES Sponsorships_Platform_Deals(Membership_No, Sponsorship_No)
+		ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY (StreamerID) REFERENCES Streamer(StreamerID)
+		ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+
+CREATE TABLE Requirements(
+	Sponsorship_No CHAR(10),
+	Membership_No CHAR(10),
+	Comp_Req VARCHAR(100),	
+	Platform_Req VARCHAR(100),	
+	PRIMARY KEY (Sponsorship_No, Membership_No, Comp_Req, Platform_Req),
+	FOREIGN KEY (Membership_No, Sponsorship_No) REFERENCES Sponsorships_Platform_Deals(Membership_No, Sponsorship_No)
+		ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE Chat_Unban_Requests(
+	StreamerID VARCHAR(20),
+	ViewerID VARCHAR(20),
+	Ban_timestamp TIMESTAMP,
+	Banned_By VARCHAR(50),
+	Reason_For_Ban VARCHAR(200),
+	Viewer_Defense VARCHAR(200),
+	Unban_Approved BOOL,
+	Unban_timestamp TIMESTAMP,
+	PRIMARY KEY (StreamerID, ViewerID, Ban_timestamp),
+	FOREIGN KEY (StreamerID) REFERENCES Streamer(StreamerID)
+		ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY (ViewerID) REFERENCES Viewer(ViewerID)
+		ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+-- Creating the Channel_Administrators table with a unique constraint
+CREATE TABLE Channel_Administrators (
+    AdminID VARCHAR(20),
+    ViewerID VARCHAR(20),
+    Date_Of_Join DATE,
+    Position VARCHAR(30),
+    Duty VARCHAR(100),
+    Earnings INT,
+    Bots_Present SMALLINT,
+    PRIMARY KEY (AdminID, ViewerID), -- Making the combination of AdminID and ViewerID unique
+    FOREIGN KEY (ViewerID) REFERENCES Viewer(ViewerID) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+
+-- Creating the Hires table with corrected foreign key references
+CREATE TABLE Hires (
+    StreamerID VARCHAR(20),
+    AdminID VARCHAR(20),
+    ViewerID VARCHAR(20),
+    Open_For_Hiring VARCHAR(10),
+    PRIMARY KEY (StreamerID, AdminID, ViewerID),
+    FOREIGN KEY (StreamerID) REFERENCES Streamer(StreamerID) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (AdminID, ViewerID) REFERENCES Channel_Administrators(AdminID, ViewerID) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+
+CREATE TABLE Donations(
+	StreamerID VARCHAR(20),
+	ViewerID VARCHAR(20),
+	Don_Amt INT,
+	Don_timestamp TIMESTAMP,
+	PRIMARY KEY (StreamerID, ViewerID,Don_timestamp),
+	FOREIGN KEY (StreamerID) REFERENCES Streamer(StreamerID)
+		ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY (ViewerID) REFERENCES Viewer(ViewerID)
+		ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE Subscriptions(
+	StreamerID VARCHAR(20),
+	ViewerID VARCHAR(20),
+	Subs_Start DATE,
+	Subs_End DATE,
+	Subs_Type VARCHAR(20),
+	PRIMARY KEY (StreamerID, ViewerID, Subs_Start),
+	FOREIGN KEY (StreamerID) REFERENCES Streamer(StreamerID)
+		ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY (ViewerID) REFERENCES Viewer(ViewerID)
+		ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE Follows(
+	StreamerID VARCHAR(20),
+	ViewerID VARCHAR(20),
+	Fol_Date DATE,
+	Fol_Status BOOL,  
+	Unfol_Date DATE,
+	PRIMARY KEY (StreamerID, ViewerID, Fol_Date),
+	FOREIGN KEY (StreamerID) REFERENCES Streamer(StreamerID)
+		ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY (ViewerID) REFERENCES Viewer(ViewerID)
+		ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE Viewer_Int(
+	UserID VARCHAR(20),
+	Interests VARCHAR(100),
+	PRIMARY KEY (UserID, Interests),
+	FOREIGN KEY (UserID) REFERENCES Viewer(ViewerID)
+		ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE Chat_Reactions(
+	StreamID VARCHAR(20),
+	ViewerID VARCHAR(20),
+	Chat_Log VARCHAR(100),
+	Reaction VARCHAR(20),
+	Chat_Timestamp TIMESTAMP,
+	PRIMARY KEY (StreamID, ViewerID,Chat_timestamp),
+	FOREIGN KEY (StreamID) REFERENCES Stream(StreamID)
+		ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY (ViewerID) REFERENCES Viewer(ViewerID)
+		ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE Stream_Analytics(
+	StreamID VARCHAR(20),
+	Views INT,
+	Likes INT,
+	Followers_Inc INT,
+	Comments  INT,
+	Subs_Received INT,
+	Avg_View_Dur VARCHAR(10),
+	Dons_Received INT,
+	PRIMARY KEY (StreamID),
+	FOREIGN KEY (StreamID) REFERENCES Stream(StreamID)
+		ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE Watches(
+	StreamID VARCHAR(20),
+	ViewerID VARCHAR(20),
+	Watch_Dur TIME,
+	PRIMARY KEY(StreamID,ViewerID,Watch_Dur),
+	FOREIGN KEY (StreamID) REFERENCES Stream(StreamID)
+		ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY (ViewerID) REFERENCES Viewer(ViewerID)
+		ON DELETE CASCADE ON UPDATE CASCADE
+);

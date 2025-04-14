@@ -1,0 +1,115 @@
+module washing_machine(
+    input clk,
+    input reset,
+    input door_close,
+    input start,
+    input filled,
+    input detergent_added,
+    input cycle_timeout,
+    input drained,
+    input spin_timeout,
+    output reg door_lock,
+    output reg motor_on,
+    output reg fill_value_on,
+    output reg drain_value_on,
+    output reg done,
+    output reg soap_wash,
+    output reg spining
+);
+
+    // Defining states
+    parameter check_door     = 3'b000;
+    parameter fill_water     = 3'b001;
+    parameter add_detergent  = 3'b010;
+    parameter cycle          = 3'b011;
+    parameter drain_water    = 3'b100;
+    parameter spin           = 3'b101;
+
+    reg [2:0] current_state, next_state;
+
+    // Combinational logic for state transitions and outputs
+    always @(*) begin
+        // Default values for outputs
+        next_state = current_state;
+        motor_on = 0;
+        fill_value_on = 0;
+        drain_value_on = 0;
+        door_lock = 0;
+        soap_wash = 0;
+        spining = 0;
+        done = 0;
+
+        case (current_state)
+            check_door: begin
+                if (start && door_close) begin
+                    next_state = fill_water;
+                    door_lock = 1;
+                end
+            end
+
+            fill_water: begin
+                door_lock = 1;
+                fill_value_on = !filled;
+                if (filled) begin
+                    if (!soap_wash) begin
+                        next_state = add_detergent;
+                        soap_wash = 1;
+                    end else begin
+                        next_state = cycle;
+                        soap_wash = 1;
+                    end
+                end
+            end
+
+            add_detergent: begin
+                door_lock = 1;
+                soap_wash = 1;
+                if (detergent_added) begin
+                    next_state = cycle;
+                end
+            end
+
+            cycle: begin
+                door_lock = 1;
+                motor_on = 1;
+                if (cycle_timeout) begin
+                    next_state = drain_water;
+                end
+            end
+
+            drain_water: begin
+                door_lock = 1;
+                drain_value_on = !drained;
+                if (drained) begin
+                    next_state = spin;
+                    soap_wash = 1;
+                    spining = 1;
+                end
+            end
+
+            spin: begin
+                door_lock = 1;
+                motor_on = 1;
+                if (spin_timeout) begin
+                    next_state = check_door;
+                end
+            end
+
+            default: begin
+                next_state = check_door;
+            end
+        endcase
+        if(motor_on & fill_value_on & drain_value_on & door_lock & soap_wash & spining) begin
+            done = 1;
+        end
+    end 
+
+    // Sequential logic for state update
+    always @(posedge clk or posedge reset) begin
+        if (reset) begin
+            current_state <= check_door;
+        end else begin
+            current_state <= next_state;
+        end
+    end
+endmodule

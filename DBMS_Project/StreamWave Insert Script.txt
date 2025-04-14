@@ -1,0 +1,1599 @@
+-- StreamWave Database Insert Script
+
+-- Streamer Relations Insert Queries
+
+
+INSERT INTO Streamer VALUES
+('pewd@S001', 'Pewdiepie', '2011-11-01', 'pewdsacc09', 'felix1997@gmail.com', 34, 'Sweden', '@felix_729', '@pewds2011','@pew-pew192');
+
+INSERT INTO Streamer VALUES
+('ninja@S002', 'Ninja', '2014-06-12', 'ninja123', 'ninja@hotmail.com', 30, 'United States', '@therealninja', '@ninja', '@ninja_facebook23');
+
+INSERT INTO Streamer VALUES
+('lirik@S003', 'LIRIK', '2012-09-25', 'lirikstream', 'lirik@gmail.com', 31, 'United States', '@lirik', NULL, '@Lirik_official4562');
+
+INSERT INTO Streamer VALUES
+('poki@S004', 'Pokimane', '2015-03-19', 'poki1234', 'pokimane@yahoo.com', 25, 'Morocco', '@pokimane', '@pokimane', '@poki');
+
+INSERT INTO Streamer VALUES
+('shrou@S005', 'Shroud', '2013-07-03', 'shroudstream', 'shroud@gmail.com', 28, 'Canada', '@shroud', '@shroud', '@shroudy_one98');
+
+INSERT INTO Streamer VALUES
+('valky@S006', 'Valkyrae', '2016-02-15', 'valkyrae321', 'valkyrae@gmail.com', 25, 'United States', '@valkyrae', '@valkyrae', '@valks_facebook926');
+
+INSERT INTO Streamer VALUES
+('drdis@S007', 'DrDisrespect', '2014-10-07', 'doc666', 'drdisrespect@yahoo.com', 40, 'United States', '@drdisrespect', '@drdisrespect', '@gaming_facebook351');
+
+INSERT INTO Streamer VALUES
+('sum@S008', 'Summit1g', '2012-03-18', 'summit1g', 'summit1g@gmail.com', 30, 'United States', '@summit1g', '@summit1g', '@summit_facebook231');
+
+INSERT INTO Streamer VALUES
+('xqc@S009', 'xQcOW', '2017-05-20', 'xqclol', 'xqc@hotmail.com', 25, 'Canada', '@xqcow', '@xqcow', '@xqc_facebook21');
+
+INSERT INTO Streamer VALUES
+('tfue@S010', 'Tfue', '2015-08-04', 'tfue12', 'tfue@yahoo.com', 23, 'United States', '@tfue', '@tfue', '@tfue_facebook234');
+
+INSERT INTO Streamer VALUES
+('greek@S011', 'Greekgodx', '2016-09-10', 'greekgodx12', 'greek@gmail.com', 30, 'United Kingdom', '@greekgodx', '@greekgodx', '@greekgodx_facebook246');
+
+INSERT INTO Streamer VALUES
+('anne@S012', 'AnneMunition', '2013-11-28', 'annemunition88', 'anne@hotmail.com', 32, 'Canada', '@annemunition', '@annemunition', '@anne_faccebook77');
+
+INSERT INTO Streamer VALUES
+('sykku@S013', 'Sykkuno', '2017-04-05', 'sykkuno123', 'sykkuno@yahoo.com', 30, 'United States', '@sykkuno', '@sykkuno', '@sykkuno_facebook43');
+
+INSERT INTO Streamer VALUES
+('amour@S014', 'Amouranth', '2015-05-20', 'amouranth22', 'amouranth@gmail.com', 29, 'United States', '@amouranth', '@amouranth', '@amouranth_facebook21');
+
+INSERT INTO Streamer VALUES
+('fedm@S015', 'Fedmyster', '2014-08-12', 'fed123', 'fed@hotmail.com', 28, 'United States', '@fedmyster', '@fedmyster', '@fedmyster_facebook85');
+
+INSERT INTO Streamer VALUES
+('Jacks@S016', 'Jacksepticeye', '2012-02-24', 'jacksepticeye89', 'jacksepticeye@gmail.com', 32, 'Ireland', '@jacksepticeye', '@jacksepticeye', '@jack_facebook239');
+
+INSERT INTO Streamer VALUES
+('marki@S017', 'Markiplier', '2012-05-13', 'markiplier21', 'markiplier@yahoo.com', 32, 'United States', '@markiplier', '@markiplier', '@mark_facebook345');
+
+INSERT INTO Streamer VALUES
+('lupo@S018', 'DrLupo', '2013-04-20', 'drlupo', 'drlupo@hotmail.com', 33, 'United States', '@drlupo', '@drlupo', '@lupo_facebook72');
+
+INSERT INTO Streamer VALUES
+('tim@S019', 'TimTheTatman', '2014-01-08', 'timtatman', 'timthetatman@gmail.com', 30, 'United States', '@timthetatman', '@timthetatman', '@tim_facebook123');
+
+INSERT INTO Streamer VALUES
+('cloak@S020', 'Cloakzy', '2015-09-23', 'cloakzy', 'cloakzy@yahoo.com', 25, 'United States', '@cloakzy', '@cloakzy', '@cloak_facebook45');
+
+INSERT INTO Streamer VALUES
+('annie@S021', 'AnnieFuchsia', '2017-06-15', 'anniefuchsia', 'anniefuchsia@gmail.com', 28, 'Sweden', '@anniefuchsia', '@anniefuchsia', '@fuchsia_facebook789');
+
+INSERT INTO Streamer VALUES
+('corpse@S022', 'Corpse Husband', '2019-03-19', 'corpsehusband', 'corpsehusband@gmail.com', 28, 'United States', '@corpsehusband', '@corpsehusband', '@corpse_facebook932');
+
+INSERT INTO Streamer VALUES
+('alinity@S023', 'Alinity', '2014-07-25', 'alinity123', 'alinity@hotmail.com', 33, 'Canada', '@alinity', '@alinity', '@alinity_facebook56');
+
+INSERT INTO Streamer VALUES
+('ludwig@S024', 'Ludwig', '2017-02-18', 'ludwiglol', 'ludwig@yahoo.com', 26, 'United States', '@ludwig', '@ludwig', '@ludwig_facebook324');
+
+INSERT INTO Streamer VALUES
+('mizkif@S025', 'Mizkif', '2018-04-11', 'mizkif', 'mizkif@gmail.com', 26, 'United States', '@mizkif', '@mizkif', '@mizkif_facebook21');
+
+INSERT INTO Streamer VALUES
+('qtcinderella@S026', 'QTCinderella', '2016-11-30', 'qtcinderella', 'qtcinderella@hotmail.com', 26, 'United States', '@qtcinderella', '@qtcinderella', '@qtcinderella_facebook54');
+
+INSERT INTO Streamer VALUES
+('fuslie@S027', 'Fuslie', '2015-10-04', 'fuslie', 'fuslie@gmail.com', 28, 'United States', '@fuslie', '@fuslie', '@fuslie_facebook123');
+
+INSERT INTO Streamer VALUES
+('alexiaraye@S028', 'AlexiaRaye', '2017-09-18', 'alexia123', 'alexia@yahoo.com', 24, 'United States', '@alexiaraye', '@alexiaraye', '@alexiaraye_facebook45');
+
+INSERT INTO Streamer VALUES
+('pokelawls@S029', 'PokeLAWL', '2016-12-30', 'pokelawl', 'pokelawl@hotmail.com', 29, 'Canada', '@pokelawl', '@pokelawl', '@pokelawl_facebook67');
+
+INSERT INTO Streamer VALUES
+('vinesauce@S030', 'Vinesauce', '2010-06-04', 'vinesauce', 'vinesauce@gmail.com', 38, 'United States', '@vinesauce', '@vinesauce', '@vinesauce_facebook98');
+
+INSERT INTO Streamer VALUES
+('juli@S031', 'Juliano', '2013-08-02', 'juliano123', 'juliano@gmail.com', 29, 'Brazil', '@juliano', '@juliano', '@juliano_facebook12');
+
+INSERT INTO Streamer VALUES
+('scarra@S032', 'Scarra', '2012-04-11', 'scarra', 'scarra@hotmail.com', 32, 'Canada', '@scarra', '@scarra', '@scarra_facebook45');
+
+INSERT INTO Streamer VALUES
+('kacey@S033', 'Kaceytron', '2014-09-07', 'kaceytron', 'kaceytron@gmail.com', 30, 'United States', '@kaceytron', '@kaceytron', '@kaceytron_facebook78');
+
+INSERT INTO Streamer VALUES
+('asmongold@S034', 'Asmongold', '2013-05-20', 'asmongold', 'asmongold@yahoo.com', 31, 'United States', '@asmongold', '@asmongold', '@asmongold_facebook90');
+
+INSERT INTO Streamer VALUES
+('coconut@S035', 'CoconutB', '2015-11-25', 'coconutb', 'coconutb@yahoo.com', 27, 'Canada', '@coconutb', '@coconutb', '@coconutb_facebook23');
+
+INSERT INTO Streamer VALUES
+('kripp@S036', 'Kripparrian', '2011-12-15', 'kripparrian', 'kripparrian@gmail.com', 33, 'Canada', '@kripparrian', '@kripparrian', '@kripparrian_facebook56');
+
+INSERT INTO Streamer VALUES
+('reckful@S037', 'Reckful', '2010-08-08', 'reckful', 'reckful@hotmail.com', 32, 'United States', '@reckful', '@reckful', '@reckful_facebook89');
+
+INSERT INTO Streamer VALUES
+('loeya@S038', 'Loeya', '2016-07-22', 'loeya', 'loeya@gmail.com', 26, 'Norway', '@loeya', '@loeya', '@loeya_facebook23');
+
+INSERT INTO Streamer VALUES
+('towelliee@S039', 'Towelliee', '2011-02-08', 'towelliee', 'towelliee@gmail.com', 35, 'United States', '@towelliee', '@towelliee', '@towelliee_facebook45');
+
+INSERT INTO Streamer VALUES
+('gronkh@S040', 'Gronkh', '2008-06-03', 'gronkh', 'gronkh@yahoo.com', 44, 'Germany', '@gronkh', '@gronkh', '@gronkh_facebook67');
+
+INSERT INTO Streamer VALUES
+('cdew@S041', 'CDEW', '2010-04-25', 'cdew', 'cdew@gmail.com', 34, 'United States', '@cdew', '@cdew', '@cdew_facebook89');
+
+INSERT INTO Streamer VALUES
+('melina@S042', 'Melina', '2018-10-15', 'melina', 'melina@hotmail.com', 26, 'Sweden', '@melina', '@melina', '@melina_facebook12');
+
+INSERT INTO Streamer VALUES
+('sodapoppin@S043', 'Sodapoppin', '2011-11-03', 'sodapoppin', 'sodapoppin@hotmail.com', 27, 'United States', '@sodapoppin', '@sodapoppin', '@sodapoppin_facebook34');
+
+INSERT INTO Streamer VALUES
+('forsen@S044', 'Forsen', '2012-08-08', 'forsen', 'forsen@gmail.com', 30, 'Sweden', '@forsen', '@forsen', '@forsen_facebook56');
+
+INSERT INTO Streamer VALUES
+('scarlet@S045', 'Scarlettt', '2019-05-20', 'scarlettt', 'scarlettt@gmail.com', 23, 'United States', '@scarlettt', '@scarlettt', '@scarlettt_facebook78');
+
+INSERT INTO Streamer VALUES
+('asmr@S046', 'ASMR', '2017-04-01', 'asmr', 'asmr@yahoo.com', 28, 'United States', '@asmr', '@asmr', '@asmr_facebook90');
+
+INSERT INTO Streamer VALUES
+('boogie@S047', 'Boogie2988', '2010-12-18', 'boogie2988', 'boogie2988@gmail.com', 44, 'United States', '@boogie2988', '@boogie2988', '@boogie2988_facebook23');
+
+INSERT INTO Streamer VALUES
+('annie@S048', 'AnnieBot', '2013-06-30', 'anniebot', 'anniebot@yahoo.com', 29, 'United States', '@anniebot', '@anniebot', '@anniebot_facebook45');
+
+INSERT INTO Streamer VALUES
+('ster@S049', 'Ster', '2012-05-08', 'ster', 'ster@hotmail.com', 32, 'United States', '@ster', '@ster', '@ster_facebook67');
+
+INSERT INTO Streamer VALUES
+('asmong@S050', 'Asmongold', '2015-02-11', 'asmongold', 'asmongold@gmail.com', 31, 'United States', '@asmongold', '@asmongold', '@asmongold_facebook89');
+
+
+
+
+
+
+
+
+-- Stream Relation Insert Queries
+
+INSERT INTO Stream VALUES ('ST001', 'pewd@S001', 'Gaming Session', '1080p', 'Private', '2023-04-15', '02:30:00', 'English');
+
+INSERT INTO Stream VALUES ('ST002', 'poki@S004', 'Cooking Tutorial', '720p', 'Public', '2023-04-18', '01:45:00', 'Spanish');
+
+INSERT INTO Stream VALUES ('ST003', 'shrou@S005', 'Music Concert', '4K', 'Private', '2023-04-20', '03:15:00', 'French');
+INSERT INTO Stream VALUES ('ST004', 'tfue@S010', 'Tech Talk', '1080p', 'Public', '2023-04-22', '01:00:00', 'English');
+
+INSERT INTO Stream VALUES ('ST005', 'lirik@S003', 'Fitness Workshop', '720p', 'Private', '2023-04-25', '01:30:00', 'Spanish');
+
+INSERT INTO Stream VALUES ('ST006', 'pewd@S001', 'Art Showcase', '4K', 'Public', '2023-04-27', '02:45:00', 'French');
+
+INSERT INTO Stream VALUES ('ST007', 'sykku@S013', 'Gaming Tournament', '1080p', 'Private', '2023-04-30', '03:00:00', 'English');
+
+INSERT INTO Stream VALUES ('ST008', 'alinity@S023', 'Travel Vlog', '720p', 'Public', '2023-05-02', '01:15:00', 'Spanish');
+
+INSERT INTO Stream VALUES ('ST009', 'vinesauce@S030', 'Comedy Show', '4K', 'Private', '2023-05-05', '02:30:00', 'French');
+
+INSERT INTO Stream VALUES ('ST010', 'corpse@S022', 'Educational Seminar', '1080p', 'Public', '2023-05-08', '01:45:00', 'English');
+
+INSERT INTO Stream VALUES ('ST011', 'greek@S011', 'DIY Workshop', '720p', 'Private', '2023-05-10', '02:00:00', 'Spanish');
+
+INSERT INTO Stream VALUES ('ST012', 'greek@S011', 'Science Experiment', '4K', 'Public', '2023-05-13', '02:15:00', 'French');
+
+INSERT INTO Stream VALUES ('ST013', 'alinity@S023', 'Gaming Session', '1080p', 'Private', '2023-05-16', '01:30:00', 'English');
+
+INSERT INTO Stream VALUES ('ST014', 'shrou@S005', 'Cooking Tutorial', '720p', 'Public', '2023-05-18', '02:45:00', 'Spanish');
+
+INSERT INTO Stream VALUES ('ST015', 'cloak@S020', 'Music Concert', '4K', 'Private', '2023-05-21', '02:00:00', 'French');
+
+INSERT INTO Stream VALUES ('ST016', 'Jacks@S016', 'Irish Storytime', '1080p', 'Public', '2023-05-24', '02:20:00', 'English');
+
+INSERT INTO Stream VALUES ('ST017', 'marki@S017', 'Scary Game Night', '720p', 'Private', '2023-05-27', '02:45:00', 'English');
+
+INSERT INTO Stream VALUES ('ST018', 'lupo@S018', 'Charity Stream', '1080p', 'Public', '2023-05-29', '02:30:00', 'English');
+INSERT INTO Stream VALUES ('ST019', 'tim@S019', 'Valorant Gameplay', '1080p', 'Private', '2023-06-01', '02:15:00', 'English');
+
+INSERT INTO Stream VALUES ('ST020', 'cloak@S020', 'Fortnite Solo Matches', '1080p', 'Public', '2023-06-04', '02:50:00', 'English');
+
+INSERT INTO Stream VALUES ('ST021', 'annie@S021', 'Music DJ Session', '720p', 'Private', '2023-06-07', '01:30:00', 'Swedish');
+
+INSERT INTO Stream VALUES ('ST022', 'corpse@S022', 'Horror Game Playthrough', '1080p', 'Public', '2023-06-10', '02:00:00', 'English');
+
+INSERT INTO Stream VALUES ('ST023', 'alinity@S023', 'Just Dance', '1080p', 'Private', '2023-06-13', '02:40:00', 'English');
+
+INSERT INTO Stream VALUES ('ST024', 'ludwig@S024', 'Guessing Games', '1080p', 'Public', '2023-06-16', '02:10:00', 'English');
+
+INSERT INTO Stream VALUES ('ST025', 'mizkif@S025', 'Reacting to Videos', '1080p', 'Private', '2023-06-19', '02:25:00', 'English');
+
+INSERT INTO Stream VALUES ('ST026', 'qtcinderella@S026', 'Art & Crafts', '720p', 'Public', '2023-06-22', '02:30:00', 'English');
+
+INSERT INTO Stream VALUES ('ST027', 'fuslie@S027', 'Singing Karaoke', '1080p', 'Private', '2023-06-25', '02:35:00', 'English');
+
+INSERT INTO Stream VALUES ('ST028', 'alexiaraye@S028', 'Cooking Challenge', '1080p', 'Public', '2023-06-28', '02:15:00', 'English');
+
+INSERT INTO Stream VALUES ('ST029', 'pokelawls@S029', 'Chatting & Gaming', '720p', 'Private', '2023-07-01', '01:45:00', 'English');
+
+INSERT INTO Stream VALUES ('ST030', 'vinesauce@S030', 'Retro Gaming', '1080p', 'Public', '2023-07-04', '02:20:00', 'English');
+
+INSERT INTO Stream VALUES ('ST031', 'drdis@S007', 'Gaming Stream', '1080p', 'Private', '2023-07-07', '02:30:00', 'English');
+
+INSERT INTO Stream VALUES ('ST032', 'sum@S008', 'Cooking Class', '720p', 'Public', '2023-07-10', '01:45:00', 'Spanish');
+
+INSERT INTO Stream VALUES ('ST033', 'xqc@S009', 'Music Performance', '4K', 'Private', '2023-07-13', '2:00:00', 'English');
+
+INSERT INTO Stream VALUES ('ST034', 'tfue@S010', 'Tech Talk', '1080p', 'Private', '2023-07-16', '01:00:00', 'English');
+
+INSERT INTO Stream VALUES ('ST035', 'anne@S012', 'Fitness Challenge', '720p', 'Public', '2023-07-19', '01:30:00', 'Spanish');
+
+INSERT INTO Stream VALUES ('ST036', 'valky@S006', 'Art Exhibition', '4K', 'Public', '2023-07-22', '02:45:00', 'French');
+
+INSERT INTO Stream VALUES ('ST037', 'drdis@S007', 'Gaming Tournament', '1080p', 'Private', '2023-07-25', '03:00:00', 'English');
+
+INSERT INTO Stream VALUES ('ST038', 'amour@S014', 'Travel Vlog', '720p', 'Public', '2023-07-28', '01:15:00', 'Spanish');
+
+INSERT INTO Stream VALUES ('ST039', 'sum@S008', 'Comedy Show', '4K', 'Public', '2023-07-31', '02:30:00', 'French');
+
+INSERT INTO Stream VALUES ('ST040', 'xqc@S009', 'Educational Seminar', '1080p', 'Public', '2023-08-03', '01:45:00', 'English');
+
+INSERT INTO Stream VALUES ('ST041', 'shrou@S005', 'DIY Workshop', '720p', 'Public', '2023-08-06', '02:00:00', 'Spanish');
+
+INSERT INTO Stream VALUES ('ST042', 'valky@S006', 'Science Experiment', '4K', 'Private', '2023-08-09', '02:15:00', 'French');
+
+INSERT INTO Stream VALUES ('ST043', 'tfue@S010', 'Gaming Session', '1080p', 'Private', '2023-08-12', '01:30:00', 'English');
+
+INSERT INTO Stream VALUES ('ST044', 'anne@S012', 'Cooking Tutorial', '720p', 'Public', '2023-08-15', '02:45:00', 'Spanish');
+
+INSERT INTO Stream VALUES ('ST045', 'valky@S006', 'Music Concert', '4K', 'Private', '2023-08-18', '02:00:00', 'French');
+
+INSERT INTO Stream VALUES ('ST046', 'amour@S014', 'Irish Storytime', '1080p', 'Public', '2023-08-21', '02:20:00', 'English');
+
+INSERT INTO Stream VALUES ('ST047', 'sum@S008', 'Scary Game Night', '720p', 'Private', '2023-08-24', '02:45:00', 'English');
+
+INSERT INTO Stream VALUES ('ST048', 'shrou@S005', 'Charity Stream', '1080p', 'Public', '2023-08-27', '02:30:00', 'English');
+INSERT INTO Stream VALUES ('ST049', 'anne@S012', 'Valorant Gameplay', '1080p', 'Public', '2023-08-30', '02:15:00', 'English');
+
+INSERT INTO Stream VALUES ('ST050', 'amour@S014', 'Fortnite Solo Matches', '1080p', 'Public', '2023-09-02', '02:50:00', 'English');
+
+
+
+-- Viewer Relation Insert Queries
+
+INSERT INTO Viewer VALUES ('V0001', 'john_doe', '2023-05-15', 'pass123', 'john.doe@example.com', 'United States', 32);
+
+INSERT INTO Viewer VALUES ('V0002', 'jane_smith', '2023-08-20', 'password2', 'jane.smith@example.com', 'Canada', 37);
+
+INSERT INTO Viewer VALUES ('V0003', 'viewer3', '2023-03-10', 'view345', 'viewer3@gmail.com', 'United Kingdom', 27);
+
+INSERT INTO Viewer VALUES ('V0004', 'viewer4', '2023-12-25', 'user4pass', 'viewer4@yahoo.com', 'Australia', 41);
+
+INSERT INTO Viewer VALUES ('V0005', 'viewer5', '2023-07-01', 'pass_viewer5', 'viewer5@hotmail.com', 'Germany', 29);
+
+INSERT INTO Viewer VALUES ('V0006', 'viewer6', '2023-10-12', 'vwr6pwd', 'viewer6@outlook.com', 'France', 33);
+
+INSERT INTO Viewer VALUES ('V0007', 'viewer7', '2023-04-30', 'password7', 'viewer_seven@example.com', 'Japan', 24);
+
+INSERT INTO Viewer VALUES ('V0008', 'viewer8', '2023-11-05', 'p@ssw0rd8', 'viewer8@example.com', 'Brazil', 28);
+
+INSERT INTO Viewer VALUES ('V0009', 'viewer9', '2023-09-18', 'secret9', 'viewer9@example.com', 'India', 34);
+
+INSERT INTO Viewer VALUES ('V0010', 'viewer10', '2023-06-08', 'password10', 'viewer10@example.com', 'China', 26);
+
+INSERT INTO Viewer VALUES ('V0011', 'viewer11', '2023-02-28', 'pass11', 
+'viewer11@example.com', 'South Korea', 33);
+INSERT INTO Viewer VALUES ('V0012', 'viewer12', '2023-10-09', 'pwd_12', 'viewer12@example.com', 'Russia', 31);
+
+INSERT INTO Viewer VALUES ('V0013', 'viewer13', '2023-07-14', 'passviewer13', 'viewer13@example.com', 'Mexico', 36);
+
+INSERT INTO Viewer VALUES ('V0014', 'viewer14', '2023-03-22', 'user14pass', 'viewer14@example.com', 'Italy', 25);
+
+INSERT INTO Viewer VALUES ('V0015', 'viewer15', '2023-12-02', 'password15', 'viewer15@example.com', 'Spain', 38);
+
+INSERT INTO Viewer VALUES ('V0016', 'viewer1', '2024-04-01', 'viewer123', 'viewer1@example.com', 'United States', 34);
+
+INSERT INTO Viewer VALUES ('V0017', 'abc', '2024-04-02', 'abc123', 'abc@example.com', 'United Kingdom', 29);
+
+INSERT INTO Viewer VALUES ('V0018', 'user456', '2024-04-03', 'pass456', 'user456@example.com', 'Canada', 36);
+
+INSERT INTO Viewer VALUES ('V0019', 'myemail', '2024-04-04', 'mypassword', 'myemail@example.com', 'Australia', 32);
+
+INSERT INTO Viewer VALUES ('V0020', 'hello', '2024-04-05', 'hello123', 'hello@example.com', 'India', 27);
+
+INSERT INTO Viewer VALUES ('V0021', 'test', '2024-04-06', 'test1234', 'test@example.com', 'Germany', 39);
+
+INSERT INTO Viewer VALUES ('V0022', 'user123', '2024-04-07', 'password123', 'user123@example.com', 'Brazil', 26);
+
+INSERT INTO Viewer VALUES ('V0023', 'user789', '2024-04-08', '123456', 'user789@example.com', 'France', 31);
+
+INSERT INTO Viewer VALUES ('V0024', 'qwerty', '2024-04-09', 'qwerty', 'qwerty@example.com', 'Japan', 37);
+
+INSERT INTO Viewer VALUES ('V0025', 'pass', '2024-04-10', 'passpass', 'pass@example.com', 'Mexico', 28);
+
+INSERT INTO Viewer VALUES ('V0026', 'secure', '2024-04-11', 'securepwd', 'secure@example.com', 'South Korea', 35);
+INSERT INTO Viewer VALUES ('V0027', 'viewpass', '2024-04-12', 'viewpass', 'viewpass@example.com', 'Russia', 30);
+
+INSERT INTO Viewer VALUES ('V0028', 'securepass', '2024-04-13', 'securepass123', 'securepass@example.com', 'Italy', 34);
+
+INSERT INTO Viewer VALUES ('V0029', 'mypassword', '2024-04-14', 'mypassword123', 'mypassword@example.com', 'Spain', 31);
+
+INSERT INTO Viewer VALUES ('V0030', 'testpass', '2024-04-15', 'testpass123', 'testpass@example.com', 'United States', 38);
+
+INSERT INTO Viewer VALUES ('V0031', 'viewerpass', '2024-04-16', 'viewerpass', 'viewerpass@example.com', 'United Kingdom', 27);
+
+INSERT INTO Viewer VALUES ('V0032', 'secure123', '2024-04-17', 'secure123', 'secure123@example.com', 'Canada', 33);
+
+INSERT INTO Viewer VALUES ('V0033', 'mypass456', '2024-04-18', 'mypass456', 'mypass456@example.com', 'Australia', 29);
+
+INSERT INTO Viewer VALUES ('V0034', 'hellopass', '2024-04-19', 'hellopass', 'hellopass@example.com', 'India', 36);
+
+INSERT INTO Viewer VALUES ('V0035', 'userpass123', '2024-04-20', 'userpass123', 'userpass123@example.com', 'Germany', 30);
+
+INSERT INTO Viewer VALUES ('V0036', 'secure789', '2024-04-21', 'secure789', 'secure789@example.com', 'Brazil', 28);
+
+INSERT INTO Viewer VALUES ('V0037', 'mypassword789', '2024-04-22', 'mypassword789', 'mypassword789@example.com', 'France', 33);
+
+INSERT INTO Viewer VALUES ('V0038', 'testpass456', '2024-04-23', 'testpass456', 'testpass456@example.com', 'Japan', 39);
+
+INSERT INTO Viewer VALUES ('V0039', 'viewpass789', '2024-04-24', 'viewpass789', 'viewpass789@example.com', 'Mexico', 27);
+
+INSERT INTO Viewer VALUES ('V0040', 'password789', '2024-04-25', 'password789', 'password789@example.com', 'South Korea', 32);
+
+INSERT INTO Viewer VALUES ('V0041', 'securepass456', '2024-04-26', 'securepass456', 'securepass456@example.com', 'Russia', 26);
+INSERT INTO Viewer VALUES ('V0042', 'testpass789', '2024-04-27', 'testpass789', 'testpass789@example.com', 'Italy', 37);
+
+INSERT INTO Viewer VALUES ('V0043', 'viewpass456', '2024-04-28', 'viewpass456', 'viewpass456@example.com', 'Spain', 30);
+
+INSERT INTO Viewer VALUES ('V0044', 'password456', '2024-04-29', 'password456', 'password456@example.com', 'United States', 28);
+
+INSERT INTO Viewer VALUES ('V0045', 'securepass789', '2024-04-30', 'securepass789', 'securepass789@example.com', 'United Kingdom', 34);
+
+INSERT INTO Viewer VALUES ('V0046', 'testpass1234', '2024-05-01', 'testpass1234', 'testpass1234@example.com', 'Canada', 31);
+
+INSERT INTO Viewer VALUES ('V0047', 'viewpass1234', '2024-05-02', 'viewpass1234', 'viewpass1234@example.com', 'Australia', 36);
+
+INSERT INTO Viewer VALUES ('V0048', 'password7890', '2024-05-03', 'password7890', 'password7890@example.com', 'India', 33);
+
+INSERT INTO Viewer VALUES ('V0049', 'securepass1234', '2024-05-04', 'securepass1234', 'securepass1234@example.com', 'Germany', 29);
+
+INSERT INTO Viewer VALUES ('V0050', 'testpass7890', '2024-05-05', 'testpass7890', 'testpass7890@example.com', 'Brazil', 38);
+
+
+
+
+
+
+
+
+-- StreamLang Relation Insert Queries
+
+
+INSERT INTO StreamLang VALUES ('pewd@S001', 'Swedish');
+
+INSERT INTO StreamLang VALUES ('ninja@S002', 'English');
+
+INSERT INTO StreamLang VALUES ('lirik@S003', 'English');
+
+INSERT INTO StreamLang VALUES ('poki@S004', 'Arabic');
+
+INSERT INTO StreamLang VALUES ('shrou@S005', 'English');
+
+INSERT INTO StreamLang VALUES ('valky@S006', 'English');
+
+INSERT INTO StreamLang VALUES ('drdis@S007', 'English');
+
+INSERT INTO StreamLang VALUES ('sum@S008', 'English');
+
+INSERT INTO StreamLang VALUES ('xqc@S009', 'French');
+
+INSERT INTO StreamLang VALUES ('tfue@S010', 'English');
+
+INSERT INTO StreamLang VALUES ('greek@S011', 'English');
+
+INSERT INTO StreamLang VALUES ('anne@S012', 'English');
+
+INSERT INTO StreamLang VALUES ('sykku@S013', 'English');
+
+INSERT INTO StreamLang VALUES ('amour@S014', 'English');
+
+INSERT INTO StreamLang VALUES ('fedm@S015', 'English');
+
+INSERT INTO StreamLang VALUES ('Jacks@S016', 'English');
+
+INSERT INTO StreamLang VALUES ('Jacks@S016', 'Irish');
+
+INSERT INTO StreamLang VALUES ('marki@S017', 'English');
+
+INSERT INTO StreamLang VALUES ('lupo@S018', 'English');
+
+INSERT INTO StreamLang VALUES ('tim@S019', 'English');
+
+INSERT INTO StreamLang VALUES ('cloak@S020', 'English');
+
+INSERT INTO StreamLang VALUES ('annie@S021', 'English');
+
+INSERT INTO StreamLang VALUES ('annie@S021', 'Swedish');
+
+INSERT INTO StreamLang VALUES ('corpse@S022', 'English');
+
+INSERT INTO StreamLang VALUES ('alinity@S023', 'English');
+
+INSERT INTO StreamLang VALUES ('ludwig@S024', 'English');
+
+INSERT INTO StreamLang VALUES ('mizkif@S025', 'English');
+
+INSERT INTO StreamLang VALUES ('qtcinderella@S026', 'English');
+
+INSERT INTO StreamLang VALUES ('fuslie@S027', 'English');
+
+INSERT INTO StreamLang VALUES ('pokelawls@S029', 'English');
+
+INSERT INTO StreamLang VALUES ('vinesauce@S030', 'English');
+
+INSERT INTO StreamLang VALUES ('juli@S031', 'Portuguese');
+
+INSERT INTO StreamLang VALUES ('scarra@S032', 'English');
+
+INSERT INTO StreamLang VALUES ('kacey@S033', 'English');
+
+INSERT INTO StreamLang VALUES ('asmongold@S034', 'English');
+
+INSERT INTO StreamLang VALUES ('coconut@S035', 'English');
+
+INSERT INTO StreamLang VALUES ('kripp@S036', 'English');
+
+INSERT INTO StreamLang VALUES ('reckful@S037', 'English');
+
+INSERT INTO StreamLang VALUES ('loeya@S038', 'Norwegian');
+
+INSERT INTO StreamLang VALUES ('towelliee@S039', 'English');
+
+INSERT INTO StreamLang VALUES ('gronkh@S040', 'German');
+
+INSERT INTO StreamLang VALUES ('cdew@S041', 'English');
+
+INSERT INTO StreamLang VALUES ('melina@S042', 'Swedish');
+
+INSERT INTO StreamLang VALUES ('sodapoppin@S043', 'English');
+
+INSERT INTO StreamLang VALUES ('forsen@S044', 'Swedish');
+
+INSERT INTO StreamLang VALUES ('scarlet@S045', 'English');
+
+INSERT INTO StreamLang VALUES ('asmr@S046', 'English');
+
+INSERT INTO StreamLang VALUES ('boogie@S047', 'English');
+
+INSERT INTO StreamLang VALUES ('annie@S048', 'English');
+
+INSERT INTO StreamLang VALUES ('ster@S049', 'English');
+
+
+
+-- Advertisements Relation Insert Queries
+
+
+INSERT INTO Advertisements VALUES ('A001', 'Tech Gadgets Promo', 'TechHub Inc.', 'Technology', 0.40, 'pewd@S001', 1500);
+
+INSERT INTO Advertisements VALUES ('A002', 'Cooking Appliances Sale', 'Kitchen Emporium', 'Cooking', 0.35, 'ninja@S002', 1300);
+
+INSERT INTO Advertisements VALUES ('A003', 'Fitness Apparel Promo', 'FitLife', 'Fitness', 0.45, 'lirik@S003', 1800);
+
+INSERT INTO Advertisements VALUES ('A004', 'Travel Deals', 'Wanderlust Travel Agency', 'Travel', 0.50, 'valky@S006', 2000);
+
+INSERT INTO Advertisements VALUES ('A005', 'Gaming Accessories Sale', 'GameGear Inc.', 'Gaming', 0.40, 'drdis@S007', 1600);
+
+INSERT INTO Advertisements VALUES ('A006', 'Music Streaming Service', 'Melody Music', 'Music', 0.35, 'sum@S008', 1200);
+
+INSERT INTO Advertisements VALUES ('A007', 'Art Supplies Sale', 'Artistic Creations', 'Art', 0.45, 'xqc@S009', 1700);
+
+INSERT INTO Advertisements VALUES ('A008', 'Home Decor Deals', 'Home Harmony', 'Lifestyle', 0.40, 'shrou@S005', 1400);
+
+INSERT INTO Advertisements VALUES ('A009', 'Fashion Clothing Sale', 'Style Trends', 'Fashion', 0.35, 'poki@S004', 1100);
+
+INSERT INTO Advertisements VALUES ('A010', 'Education Platform', 'LearnNow', 'Education', 0.50, 'greek@S011', 2200);
+
+INSERT INTO Advertisements VALUES ('A011', 'Outdoor Gear Sale', 'Adventure Co.', 'Outdoor', 0.45, 'sykku@S013', 1900);
+
+INSERT INTO Advertisements VALUES ('A012', 'Health Supplements Promo', 'VitaLife', 'Health', 0.40, 'amour@S014', 1500);
+
+INSERT INTO Advertisements VALUES ('A013', 'Pet Supplies Sale', 'Paws & Claws', 'Pets', 0.35, 'fedm@S015', 1000);
+
+INSERT INTO Advertisements VALUES ('A014', 'Bookstore Promotion', 'Bookworms', 'Books', 0.50, 'Jacks@S016', 2100);
+
+INSERT INTO Advertisements VALUES ('A015', 'DIY Tools Sale', 'ToolMart', 'DIY', 0.40, 'marki@S017', 1600);
+
+INSERT INTO Advertisements VALUES ('A016', 'Sports Equipment Promo', 'SportZone', 'Sports', 0.35, 'lupo@S018', 1000);
+
+INSERT INTO Advertisements VALUES ('A017', 'Beauty Products Sale', 'Glamour Beauty', 'Beauty', 0.45, 'tim@S019', 1700);
+
+INSERT INTO Advertisements VALUES ('A018', 'Electronic Devices Sale', 'ElectroMart', 'Electronics', 0.40, 'cloak@S020', 1400);
+
+INSERT INTO Advertisements VALUES ('A019', 'Food Delivery Service', 'FoodEase', 'Food', 0.35, 'annie@S021', 1100);
+
+INSERT INTO Advertisements VALUES ('A020', 'Online Gaming Platform', 'GameWorld', 'Gaming', 0.50, 'corpse@S022', 2300);
+
+INSERT INTO Advertisements VALUES ('A021', 'Home Improvement Sale', 'HomeFix', 'Home', 0.45, 'alinity@S023', 1600);
+
+INSERT INTO Advertisements VALUES ('A022', 'Financial Services Promotion', 'FinanceWise', 'Finance', 0.40, 'ludwig@S024', 1500);
+
+INSERT INTO Advertisements VALUES ('A023', 'Fitness Equipment Sale', 'FitEquip', 'Fitness', 0.35, 'mizkif@S025', 1000);
+
+INSERT INTO Advertisements VALUES ('A024', 'Online Learning Platform', 'EduQuest', 'Education', 0.50, 'qtcinderella@S026', 2400);
+
+INSERT INTO Advertisements VALUES ('A025', 'Home Entertainment Sale', 'EntertainMart', 'Entertainment', 0.40, 'fuslie@S027', 1500);
+
+INSERT INTO Advertisements VALUES ('A026', 'Gardening Tools Promotion', 'GreenThumb', 'Gardening', 0.35, 'pokelawls@S029', 1000);
+
+INSERT INTO Advertisements VALUES ('A027', 'Personal Care Products Sale', 'PureCare', 'Personal Care', 0.45, 'poki@S004', 1700);
+
+INSERT INTO Advertisements VALUES ('A028', 'Fashion Accessories Promo', 'Accessorize', 'Fashion', 0.40, 'anne@S012', 1400);
+
+INSERT INTO Advertisements VALUES ('A029', 'Automobile Deals', 'AutoZone', 'Automotive', 0.35, 'fedm@S015', 1100);
+
+INSERT INTO Advertisements VALUES ('A030', 'Online Retail Store Promotion', 'Shopify', 'Retail', 0.50, 'shrou@S005', 2400);
+
+
+
+
+
+
+-- Shown_On Relation Insert Queries
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) 
+VALUES ('A001', 'pewd@S001', 'ST001', 30, '2024-04-15 01:45:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) 
+VALUES ('A002', 'ninja@S002', 'ST003', 45, '2024-04-16 02:05:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) 
+VALUES ('A003', 'lirik@S003', 'ST002', 60, '2024-04-17 01:00:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) 
+VALUES ('A004', 'valky@S006', 'ST007', 30, '2024-04-18 01:00:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A005', 'drdis@S007', 'ST007', 45, '2024-04-19 02:00:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A006', 'sum@S008', 'ST010', 30, '2024-04-20 00:30:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A007', 'xqc@S009', 'ST009', 60, '2024-04-21 01:15:00');
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A008', 'shrou@S005', 'ST010', 45, '2024-04-22 01:00:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A009', 'poki@S004', 'ST013', 60, '2024-04-23 00:55:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A010', 'greek@S011', 'ST015', 30, '2024-04-24 01:15:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A003', 'lirik@S003', 'ST002', 60, '2024-04-27 01:00:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A004', 'valky@S006', 'ST007', 30, '2024-04-28 01:00:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A005', 'drdis@S007', 'ST007', 45, '2024-04-29 02:00:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A006', 'sum@S008', 'ST010', 30, '2024-04-30 00:30:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A007', 'xqc@S009', 'ST009', 60, '2024-05-01 01:15:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A008', 'shrou@S005', 'ST010', 45, '2024-05-02 01:00:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A009', 'poki@S004', 'ST013', 60, '2024-05-03 00:55:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A010', 'greek@S011', 'ST015', 30, '2024-05-04 01:15:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A001', 'pewd@S001', 'ST001', 30, '2024-05-05 01:45:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A002', 'ninja@S002', 'ST003', 45, '2024-05-06 02:05:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A003', 'lirik@S003', 'ST002', 60, '2024-05-07 01:00:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A004', 'valky@S006', 'ST007', 30, '2024-05-08 01:00:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A005', 'drdis@S007', 'ST007', 45, '2024-05-09 02:00:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A006', 'sum@S008', 'ST010', 30, '2024-05-10 00:30:00');
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A007', 'xqc@S009', 'ST009', 60, '2024-05-11 01:15:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A008', 'shrou@S005', 'ST010', 45, '2024-05-12 01:00:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A009', 'poki@S004', 'ST013', 60, '2024-05-13 00:55:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A010', 'greek@S011', 'ST015', 30, '2024-05-14 01:15:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A001', 'pewd@S001', 'ST001', 30, '2024-05-15 01:45:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A002', 'ninja@S002', 'ST003', 45, '2024-05-16 02:05:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A003', 'lirik@S003', 'ST002', 60, '2024-05-17 01:00:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A004', 'valky@S006', 'ST007', 30, '2024-05-18 01:00:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A005', 'drdis@S007', 'ST007', 45, '2024-05-19 02:00:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A006', 'sum@S008', 'ST010', 30, '2024-05-20 00:30:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A007', 'xqc@S009', 'ST009', 60, '2024-05-21 01:15:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A008', 'shrou@S005', 'ST010', 45, '2024-05-22 01:00:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A009', 'poki@S004', 'ST013', 60, '2024-05-23 00:55:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A010', 'greek@S011', 'ST015', 30, '2024-05-24 01:15:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A001', 'pewd@S001', 'ST001', 30, '2024-05-25 01:45:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A002', 'ninja@S002', 'ST003', 45, '2024-05-26 02:05:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A003', 'lirik@S003', 'ST002', 60, '2024-05-27 01:00:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A004', 'valky@S006', 'ST007', 30, '2024-05-28 01:00:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A005', 'drdis@S007', 'ST007', 45, '2024-05-29 02:00:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A006', 'sum@S008', 'ST010', 30, '2024-05-30 00:30:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A007', 'xqc@S009', 'ST009', 60, '2024-05-31 01:15:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A008', 'shrou@S005', 'ST010', 45, '2024-06-01 01:00:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A009', 'poki@S004', 'ST013', 60, '2024-06-02 00:55:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A010', 'greek@S011', 'ST015', 30, '2024-06-03 01:15:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A001', 'pewd@S001', 'ST001', 30, '2024-06-04 01:45:00');
+
+INSERT INTO Shown_On (AdvID, StreamerID, StreamID, Ad_Duration, Ad_timestamp) VALUES ('A002', 'ninja@S002', 'ST003', 45, '2024-06-05 02:05:00');
+
+
+
+
+
+-- Stream-Cat Relation Insert Queries
+
+INSERT INTO Stream_Cat VALUES ('ST001', 'Gaming');
+
+INSERT INTO Stream_Cat VALUES ('ST001', 'Entertainment');
+
+INSERT INTO Stream_Cat VALUES ('ST002', 'Cooking');
+INSERT INTO Stream_Cat VALUES ('ST008', 'Lifestyle');
+
+INSERT INTO Stream_Cat VALUES ('ST003', 'Music');
+
+INSERT INTO Stream_Cat VALUES ('ST003', 'Concert');
+
+INSERT INTO Stream_Cat VALUES ('ST004', 'Technology');
+
+INSERT INTO Stream_Cat VALUES ('ST010', 'Education');
+
+INSERT INTO Stream_Cat VALUES ('ST005', 'Fitness');
+
+INSERT INTO Stream_Cat VALUES ('ST005', 'Health');
+
+INSERT INTO Stream_Cat VALUES ('ST011', 'Art');
+
+INSERT INTO Stream_Cat VALUES ('ST012', 'Showcase');
+
+INSERT INTO Stream_Cat VALUES ('ST013', 'Gaming');
+
+INSERT INTO Stream_Cat VALUES ('ST007', 'Tournament');
+
+INSERT INTO Stream_Cat VALUES ('ST008', 'Travel');
+
+INSERT INTO Stream_Cat VALUES ('ST009', 'Education');
+
+INSERT INTO Stream_Cat VALUES ('ST009', 'Technology');
+
+INSERT INTO Stream_Cat VALUES ('ST006', 'Fitness');
+
+INSERT INTO Stream_Cat VALUES ('ST006', 'Health');
+
+INSERT INTO Stream_Cat VALUES ('ST014', 'Art');
+
+INSERT INTO Stream_Cat VALUES ('ST014', 'Showcase');
+
+INSERT INTO Stream_Cat VALUES ('ST015', 'Gaming');
+
+INSERT INTO Stream_Cat VALUES ('ST015', 'Entertainment');
+
+INSERT INTO Stream_Cat VALUES ('ST016', 'Cooking');
+
+INSERT INTO Stream_Cat VALUES ('ST016', 'Lifestyle');
+
+INSERT INTO Stream_Cat VALUES ('ST017', 'Music');
+
+INSERT INTO Stream_Cat VALUES ('ST017', 'Concert');
+
+INSERT INTO Stream_Cat VALUES ('ST018', 'Technology');
+
+INSERT INTO Stream_Cat VALUES ('ST019', 'Education');
+
+INSERT INTO Stream_Cat VALUES ('ST020', 'Fitness');
+
+INSERT INTO Stream_Cat VALUES ('ST020', 'Health');
+
+INSERT INTO Stream_Cat VALUES ('ST021', 'Art');
+
+INSERT INTO Stream_Cat VALUES ('ST021', 'Showcase');
+
+INSERT INTO Stream_Cat VALUES ('ST022', 'Gaming');
+
+INSERT INTO Stream_Cat VALUES ('ST022', 'Entertainment');
+
+INSERT INTO Stream_Cat VALUES ('ST023', 'Cooking');
+
+INSERT INTO Stream_Cat VALUES ('ST023', 'Lifestyle');
+
+INSERT INTO Stream_Cat VALUES ('ST024', 'Music');
+
+INSERT INTO Stream_Cat VALUES ('ST024', 'Concert');
+
+INSERT INTO Stream_Cat VALUES ('ST025', 'Technology');
+
+INSERT INTO Stream_Cat VALUES ('ST026', 'Education');
+
+INSERT INTO Stream_Cat VALUES ('ST027', 'Fitness');
+
+INSERT INTO Stream_Cat VALUES ('ST027', 'Health');
+
+INSERT INTO Stream_Cat VALUES ('ST028', 'Art');
+
+INSERT INTO Stream_Cat VALUES ('ST028', 'Showcase');
+
+INSERT INTO Stream_Cat VALUES ('ST029', 'Gaming');
+
+INSERT INTO Stream_Cat VALUES ('ST029', 'Entertainment');
+
+INSERT INTO Stream_Cat VALUES ('ST030', 'Cooking');
+
+INSERT INTO Stream_Cat VALUES ('ST030', 'Lifestyle');
+
+INSERT INTO Stream_Cat VALUES ('ST031', 'Music');
+
+INSERT INTO Stream_Cat VALUES ('ST031', 'Concert');
+
+
+
+
+-- Streamer_Bans Relation Insert Queries
+
+INSERT INTO Streamer_Bans VALUES ('pewd@S001', 2, 'Hate speech', '2024-03-01', 'OFF', NULL);
+
+INSERT INTO Streamer_Bans VALUES ('ninja@S002', 1, 'Cheating', '2024-02-15', 'ON', '2024-03-01');
+
+INSERT INTO Streamer_Bans VALUES ('poki@S004', 3, 'Harassment', '2024-03-10', 'ON', NULL);
+
+INSERT INTO Streamer_Bans VALUES ('shrou@S005', 1, 'Terms of service violation', '2024-02-20', 'ON', '2024-03-05');
+
+INSERT INTO Streamer_Bans VALUES ('drdis@S007', 2, 'Inappropriate content', '2024-03-05', 'ON', NULL);
+
+INSERT INTO Streamer_Bans VALUES ('xqc@S009', 1, 'Spamming', '2024-02-25', 'ON', NULL);
+
+INSERT INTO Streamer_Bans VALUES ('anne@S012', 1, 'Misconduct', '2024-02-28', 'ON', NULL);
+
+INSERT INTO Streamer_Bans VALUES ('tfue@S010', 3, 'Harassment', '2024-03-15', 'OFF', '2024-04-01');
+
+INSERT INTO Streamer_Bans VALUES ('greek@S011', 2, 'Hate speech', '2024-03-20', 'ON', NULL);
+
+INSERT INTO Streamer_Bans VALUES ('sykku@S013', 1, 'Cheating', '2024-03-25', 'ON', NULL);
+INSERT INTO Streamer_Bans VALUES ('amour@S014', 3, 'Harassment', '2024-03-30', 'ON', NULL);
+
+INSERT INTO Streamer_Bans VALUES ('fedm@S015', 2, 'Inappropriate content', '2024-04-05', 'OFF', '2024-04-15');
+
+INSERT INTO Streamer_Bans VALUES ('Jacks@S016', 1, 'Spamming', '2024-04-10', 'ON', NULL);
+
+INSERT INTO Streamer_Bans VALUES ('marki@S017', 2, 'Hate speech', '2024-04-15', 'ON', NULL);
+
+INSERT INTO Streamer_Bans VALUES ('lupo@S018', 3, 'Harassment', '2024-04-20', 'ON', NULL);
+
+INSERT INTO Streamer_Bans VALUES ('tim@S019', 1, 'Misconduct', '2024-04-25', 'OFF', '2024-05-01');
+
+INSERT INTO Streamer_Bans VALUES ('cloak@S020', 2, 'Inappropriate content', '2024-05-01', 'ON', NULL);
+
+INSERT INTO Streamer_Bans VALUES ('annie@S021', 3, 'Harassment', '2024-05-05', 'ON', NULL);
+
+INSERT INTO Streamer_Bans VALUES ('corpse@S022', 1, 'Cheating', '2024-05-10', 'ON', NULL);
+
+INSERT INTO Streamer_Bans VALUES ('alinity@S023', 2, 'Hate speech', '2024-05-15', 'OFF', '2024-05-20');
+
+INSERT INTO Streamer_Bans VALUES ('ludwig@S024', 3, 'Harassment', '2024-05-20', 'ON', NULL);
+
+INSERT INTO Streamer_Bans VALUES ('mizkif@S025', 1, 'Spamming', '2024-05-25', 'ON', NULL);
+
+INSERT INTO Streamer_Bans VALUES ('qtcinderella@S026', 2, 'Inappropriate content', '2024-06-01', 'OFF', '2024-06-10');
+
+INSERT INTO Streamer_Bans VALUES ('fuslie@S027', 3, 'Harassment', '2024-06-05', 'ON', NULL);
+
+INSERT INTO Streamer_Bans VALUES ('pokelawls@S029', 1, 'Misconduct', '2024-06-10', 'OFF', '2024-06-20');
+INSERT INTO Streamer_Bans VALUES ('vinesauce@S030', 2, 'Hate speech', '2024-06-15', 'ON', NULL);
+
+INSERT INTO Streamer_Bans VALUES ('juli@S031', 3, 'Harassment', '2024-06-20', 'ON', NULL);
+
+INSERT INTO Streamer_Bans VALUES ('scarra@S032', 1, 'Cheating', '2024-06-25', 'ON', NULL);
+
+INSERT INTO Streamer_Bans VALUES ('kacey@S033', 2, 'Inappropriate content', '2024-06-30', 'OFF', '2024-07-05');
+
+INSERT INTO Streamer_Bans VALUES ('asmongold@S034', 3, 'Harassment', '2024-07-05', 'ON', NULL);
+
+
+
+
+-- Sponsorships_Platform Deals Relation Insert Queries
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM001', 'SP001', 'Gold', '1 year', '2023-01-15', 'XYZ Corp', '2023-01-15', '1 year');
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM002', 'SP002', 'Silver', '6 months', '2023-02-20', 'ABC Inc', '2023-02-20', '6 months');
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM003', 'SP003', 'Bronze', '3 months', '2023-03-10', 'DEF Ltd', '2023-03-10', '3 months');
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM004', 'SP004', 'Platinum', '2 years', '2023-04-05', 'GHI Corp', '2023-04-05', '2 years');
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM005', 'SP005', 'Silver', '6 months', '2023-05-12', 'JKL Ltd', '2023-05-12', '6 months');
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM006', 'SP006', 'Gold', '1 year', '2023-06-18', 'MNO Inc', '2023-06-18', '1 year');
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM007', 'SP007', 'Bronze', '3 months', '2023-07-22', 'PQR Corp', '2023-07-22', '3 months');
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM008', 'SP008', 'Platinum', '2 years', '2023-08-30', 'STU Ltd', '2023-08-30', '2 years');
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM009', 'SP009', 'Gold', '1 year', '2023-09-14', 'VWX Inc', '2023-09-14', '1 year');
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM010', 'SP010', 'Silver', '6 months', '2023-10-25', 'YZA Corp', '2023-10-25', '6 months');
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM011', 'SP011', 'Bronze', '3 months', '2023-11-07', 'BCD Ltd', '2023-11-07', '3 months');
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM012', 'SP012', 'Platinum', '2 years', '2023-12-18', 'EFG Inc', '2023-12-18', '2 years');
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM013', 'SP013', 'Gold', '1 year', '2024-01-22', 'HIJ Corp', '2024-01-22', '1 year');
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM014', 'SP014', 'Silver', '6 months', '2024-02-03', 'KLM Ltd', '2024-02-03', '6 months');
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM015', 'SP015', 'Bronze', '3 months', '2024-03-15', 'NOP Inc', '2024-03-15', '3 months');
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM016', 'SP016', 'Platinum', '2 years', '2024-04-28', 'QRS Corp', '2024-04-28', '2 years');
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM017', 'SP017', 'Gold', '1 year', '2024-05-10', 'TUV Ltd', '2024-05-10', '1 year');
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM018', 'SP018', 'Silver', '6 months', '2024-06-20', 'WXY Inc', '2024-06-20', '6 months');
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM019', 'SP019', 'Bronze', '3 months', '2024-07-01', 'ZAB Corp', '2024-07-01', '3 months');
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM020', 'SP020', 'Platinum', '2 years', '2024-08-12', 'CDE Ltd', '2024-08-12', '2 years');
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM021', 'SP021', 'Gold', '1 year', '2024-09-25', 'DEF Inc', '2024-09-25', '1 year');
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM022', 'SP022', 'Silver', '6 months', '2024-10-30', 'EFG Corp', '2024-10-30', '6 months');
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM023', 'SP023', 'Bronze', '3 months', '2024-11-14', 'GHI Ltd', '2024-11-14', '3 months');
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM024', 'SP024', 'Platinum', '2 years', '2024-12-03', 'HIJ Inc', '2024-12-03', '2 years');
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM025', 'SP025', 'Gold', '1 year', '2025-01-20', 'JKL Corp', '2025-01-20', '1 year');
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM026', 'SP026', 'Silver', '6 months', '2025-02-08', 'LMN Ltd', '2025-02-08', '6 months');
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM027', 'SP027', 'Bronze', '3 months', '2025-03-18', 'MNO Inc', '2025-03-18', '3 months');
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM028', 'SP028', 'Platinum', '2 years', '2025-04-27', 'NOP Corp', '2025-04-27', '2 years');
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM029', 'SP029', 'Gold', '1 year', '2025-05-10', 'PQR Ltd', '2025-05-10', '1 year');
+
+INSERT INTO Sponsorships_Platform_Deals VALUES ('MEM030', 'SP030', 'Silver', '6 months', '2025-06-15', 'RST Inc', '2025-06-15', '6 months');
+
+
+
+
+-- Given_To Relation Insert Queries
+
+INSERT INTO Given_To VALUES ('MEM001', 'SP001', 'pewd@S001', 10000, 500, 'Y', 'Y');
+
+INSERT INTO Given_To VALUES ('MEM002', 'SP002', 'ninja@S002', 20000, 700, 'Y', 'Y');
+
+INSERT INTO Given_To VALUES ('MEM003', 'SP003', 'lirik@S003', 15000, 600, 'Y', 'Y');
+
+INSERT INTO Given_To VALUES ('MEM004', 'SP004', 'poki@S004', 30000, 800, 'Y', 'Y');
+
+INSERT INTO Given_To VALUES ('MEM005', 'SP005', 'shrou@S005', 25000, 700, 'Y', 'Y');
+
+INSERT INTO Given_To VALUES ('MEM006', 'SP006', 'valky@S006', 18000, 650, 'Y', 'Y');
+
+INSERT INTO Given_To VALUES ('MEM007', 'SP007', 'drdis@S007', 22000, 700, 'Y', 'Y');
+INSERT INTO Given_To VALUES ('MEM008', 'SP008', 'sum@S008', 20000, 750, 'Y', 'Y');
+
+INSERT INTO Given_To VALUES ('MEM009', 'SP009', 'xqc@S009', 19000, 700, 'Y', 'Y');
+
+INSERT INTO Given_To VALUES ('MEM010', 'SP010', 'tfue@S010', 21000, 700, 'Y', 'Y');
+
+INSERT INTO Given_To VALUES ('MEM011', 'SP011', 'greek@S011', 17000, 650, 'Y', 'Y');
+
+INSERT INTO Given_To VALUES ('MEM012', 'SP012', 'anne@S012', 23000, 700, 'Y', 'Y');
+
+INSERT INTO Given_To VALUES ('MEM013', 'SP013', 'sykku@S013', 24000, 700, 'Y', 'Y');
+
+INSERT INTO Given_To VALUES ('MEM014', 'SP014', 'amour@S014', 26000, 750, 'Y', 'Y');
+
+INSERT INTO Given_To VALUES ('MEM015', 'SP015', 'fedm@S015', 20000, 700, 'Y', 'Y');
+
+INSERT INTO Given_To VALUES ('MEM016', 'SP016', 'Jacks@S016', 22000, 750, 'Y', 'Y');
+
+INSERT INTO Given_To VALUES ('MEM017', 'SP017', 'marki@S017', 23000, 750, 'Y', 'Y');
+
+INSERT INTO Given_To VALUES ('MEM018', 'SP018', 'lupo@S018', 25000, 800, 'Y', 'Y');
+
+INSERT INTO Given_To VALUES ('MEM019', 'SP019', 'tim@S019', 24000, 750, 'Y', 'Y');
+
+INSERT INTO Given_To VALUES ('MEM020', 'SP020', 'cloak@S020', 21000, 700, 'Y', 'Y');
+
+INSERT INTO Given_To VALUES ('MEM021', 'SP021', 'annie@S021', 27000, 800, 'Y', 'Y');
+
+INSERT INTO Given_To VALUES ('MEM022', 'SP022', 'corpse@S022', 26000, 800, 'Y', 'Y');
+
+INSERT INTO Given_To VALUES ('MEM023', 'SP023', 'alinity@S023', 22000, 750, 'Y', 'Y');
+
+INSERT INTO Given_To VALUES ('MEM024', 'SP024', 'ludwig@S024', 28000, 850, 'Y', 'Y');
+
+INSERT INTO Given_To VALUES ('MEM025', 'SP025', 'mizkif@S025', 23000, 750, 'Y', 'Y');
+
+INSERT INTO Given_To VALUES ('MEM026', 'SP026', 'qtcinderella@S026', 24000, 750, 'Y', 'Y');
+
+INSERT INTO Given_To VALUES ('MEM027', 'SP027', 'fuslie@S027', 21000, 700, 'Y', 'Y');
+
+INSERT INTO Given_To VALUES ('MEM028', 'SP028', 'pokelawls@S029', 25000, 800, 'Y', 'Y');
+
+INSERT INTO Given_To VALUES ('MEM029', 'SP029', 'vinesauce@S030', 27000, 800, 'Y', 'Y');
+
+INSERT INTO Given_To VALUES ('MEM030', 'SP030', 'juli@S031', 28000, 850, 'Y', 'Y');
+
+
+
+
+
+
+-- Requirements Relation Insert Queries
+
+INSERT INTO Requirements VALUES ('SP001', 'MEM001', 'High viewership', 'Daily streaming');
+
+INSERT INTO Requirements VALUES ('SP002', 'MEM002', 'Moderate viewership', 'Bi-weekly streaming');
+
+INSERT INTO Requirements VALUES ('SP003', 'MEM003', 'Active community engagement', 'Weekly streaming');
+
+INSERT INTO Requirements VALUES ('SP004', 'MEM004', 'Consistent content quality', 'Bi-weekly streaming');
+
+INSERT INTO Requirements VALUES ('SP005', 'MEM005', 'Social media presence', 'Daily streaming');
+
+INSERT INTO Requirements VALUES ('SP006', 'MEM006', 'Interactive streams', 'Weekly streaming');
+
+INSERT INTO Requirements VALUES ('SP007', 'MEM007', 'Variety in content', 'Daily streaming');
+
+INSERT INTO Requirements VALUES ('SP008', 'MEM008', 'Consistent schedule', 'Bi-weekly streaming');
+
+INSERT INTO Requirements VALUES ('SP009', 'MEM009', 'High engagement rate', 'Weekly streaming');
+
+INSERT INTO Requirements VALUES ('SP010', 'MEM010', 'Professionalism', 'Daily streaming');
+
+INSERT INTO Requirements VALUES ('SP011', 'MEM011', 'Entertaining personality', 'Bi-weekly streaming');
+
+INSERT INTO Requirements VALUES ('SP012', 'MEM012', 'Innovative content', 'Weekly streaming');
+INSERT INTO Requirements VALUES ('SP013', 'MEM013', 'Positive community interaction', 'Daily streaming');
+
+INSERT INTO Requirements VALUES ('SP014', 'MEM014', 'Consistent growth', 'Bi-weekly streaming');
+
+INSERT INTO Requirements VALUES ('SP015', 'MEM015', 'High-quality production', 'Weekly streaming');
+
+INSERT INTO Requirements VALUES ('SP016', 'MEM016', 'Interactive audience participation', 'Daily streaming');
+
+INSERT INTO Requirements VALUES ('SP017', 'MEM017', 'Engaging with sponsors', 'Bi-weekly streaming');
+
+INSERT INTO Requirements VALUES ('SP018', 'MEM018', 'Regular giveaways', 'Weekly streaming');
+
+INSERT INTO Requirements VALUES ('SP019', 'MEM019', 'Collaborations with other streamers', 'Daily streaming');
+
+INSERT INTO Requirements VALUES ('SP020', 'MEM020', 'Brand promotion during streams', 'Bi-weekly streaming');
+
+INSERT INTO Requirements VALUES ('SP021', 'MEM021', 'Timely response to viewer comments', 'Weekly streaming');
+
+INSERT INTO Requirements VALUES ('SP022', 'MEM022', 'Exclusive content for subscribers', 'Daily streaming');
+
+INSERT INTO Requirements VALUES ('SP023', 'MEM023', 'Active participation in community events', 'Bi-weekly streaming');
+
+INSERT INTO Requirements VALUES ('SP024', 'MEM024', 'Regular channel updates', 'Weekly streaming');
+
+INSERT INTO Requirements VALUES ('SP025', 'MEM025', 'Consistent communication with sponsors', 'Daily streaming');
+
+INSERT INTO Requirements VALUES ('SP026', 'MEM026', 'Incorporation of viewer suggestions', 'Bi-weekly streaming');
+
+INSERT INTO Requirements VALUES ('SP027', 'MEM027', 'Cross-platform promotion', 'Weekly streaming');
+INSERT INTO Requirements VALUES ('SP028', 'MEM028', 'Regular streaming hours', 'Daily streaming');
+
+INSERT INTO Requirements VALUES ('SP029', 'MEM029', 'Regular community polls', 'Bi-weekly streaming');
+
+INSERT INTO Requirements VALUES ('SP030', 'MEM030', 'Responsive to sponsor requests', 'Weekly streaming');
+
+
+
+
+-- Chat_Unban_Requests Relation Insert Queries
+
+INSERT INTO Chat_Unban_Requests VALUES ('pewd@S001', 'V0001', '2024-04-16 14:30:00', 'Moderator123', 'Spamming chat', 'Apologized and promises not to repeat', 'Y', '2024-04-16 15:00:00');
+
+INSERT INTO Chat_Unban_Requests VALUES ('ninja@S002', 'V0002', '2024-04-16 10:45:00', 'Admin456', 'Offensive language', 'Explained it was a misunderstanding', 'N', NULL);
+
+INSERT INTO Chat_Unban_Requests VALUES ('lirik@S003', 'V0003', '2024-04-16 12:20:00', 'ModeratorABC', 'Trolling', 'Admitted to mistake and asked for forgiveness', 'Y', '2024-04-16 13:00:00');
+
+INSERT INTO Chat_Unban_Requests VALUES ('valky@S006', 'V0004', '2024-04-16 17:10:00', 'AdminXYZ', 'Posting inappropriate links', 'Claimed unawareness of the rules', 'N', NULL);
+
+INSERT INTO Chat_Unban_Requests VALUES ('drdis@S007', 'V0005', '2024-04-16 16:40:00', 'Moderator789', 'Harassment', 'Provided evidence to dispute the claim', 'Y', '2024-04-16 17:30:00');
+
+INSERT INTO Chat_Unban_Requests VALUES ('sum@S008', 'V0005', '2024-04-16 19:20:00', 'AdminPQR', 'Spreading misinformation', 'Apologized and promised to verify information before sharing', 'N', NULL);
+
+INSERT INTO Chat_Unban_Requests VALUES ('xqc@S009', 'V0008', '2024-04-16 08:55:00', 'ModeratorMNO', 'Being disrespectful to other viewers', 'Explained the situation and expressed regret', 'Y', '2024-04-16 09:30:00');
+
+INSERT INTO Chat_Unban_Requests VALUES ('shrou@S005', 'V0012', '2024-04-16 11:15:00', 'Admin123', 'Breaking chat rules', 'Acknowledge mistake and requested a second chance', 'N', NULL);
+
+INSERT INTO Chat_Unban_Requests VALUES ('poki@S004', 'V0015', '2024-04-16 13:50:00', 'ModeratorXYZ', 'Sharing personal information', 'Provided reasoning and assured not to repeat', 'Y', '2024-04-16 14:20:00');
+
+INSERT INTO Chat_Unban_Requests VALUES ('greek@S011', 'V0015', '2024-04-16 18:00:00', 'Admin321', 'Spamming emotes excessively', 'Apologized and explained misunderstanding', 'N', NULL);
+
+INSERT INTO Chat_Unban_Requests VALUES ('pewd@S001', 'V0031', '2024-04-17 12:10:00', 
+'Moderator321', 'Spamming emotes', 'Explained it was unintentional', 'N', NULL);
+
+INSERT INTO Chat_Unban_Requests VALUES ('ninja@S002', 'V0032', '2024-04-18 15:20:00', 'Admin789', 'Inappropriate behavior', 'Apologized and promised to behave', 'Y', '2024-04-18 16:00:00');
+
+INSERT INTO Chat_Unban_Requests VALUES ('lirik@S003', 'V0033', '2024-04-19 14:50:00', 'ModeratorABC', 'Off-topic discussion', 'Agreed to stick to the topic', 'Y', '2024-04-19 15:30:00');
+
+INSERT INTO Chat_Unban_Requests VALUES ('poki@S004', 'V0034', '2024-04-20 16:40:00', 'AdminXYZ', 'Spamming', 'Provided explanation and apologized', 'N', NULL);
+
+INSERT INTO Chat_Unban_Requests VALUES ('shrou@S005', 'V0035', '2024-04-21 11:30:00', 'Moderator123', 'Trolling', 'Apologized and promised not to repeat', 'Y', '2024-04-21 12:00:00');
+
+INSERT INTO Chat_Unban_Requests VALUES ('valky@S006', 'V0036', '2024-04-22 10:15:00', 'Admin456', 'Harassment', 'Provided evidence to dispute the claim', 'N', NULL);
+
+INSERT INTO Chat_Unban_Requests VALUES ('drdis@S007', 'V0037', '2024-04-23 14:20:00', 'ModeratorMNO', 'Spreading misinformation', 'Apologized and promised to verify information before sharing', 'Y', '2024-04-23 15:00:00');
+
+INSERT INTO Chat_Unban_Requests VALUES ('sum@S008', 'V0038', '2024-04-24 13:00:00', 'AdminPQR', 'Sharing personal information', 'Provided reasoning and assured not to repeat', 'N', NULL);
+
+INSERT INTO Chat_Unban_Requests VALUES ('xqc@S009', 'V0039', '2024-04-25 09:45:00', 'Moderator789', 'Breaking chat rules', 'Acknowledge mistake and requested a second chance', 'Y', '2024-04-25 10:30:00');
+
+INSERT INTO Chat_Unban_Requests VALUES ('tfue@S010', 'V0040', '2024-04-26 17:00:00', 'Admin123', 'Being disrespectful to other viewers', 'Explained the situation and expressed regret', 'N', NULL);
+
+INSERT INTO Chat_Unban_Requests VALUES ('greek@S011', 'V0041', '2024-04-27 14:50:00', 'ModeratorXYZ', 'Spamming emotes excessively', 'Apologized and explained misunderstanding', 'Y', '2024-04-27 15:40:00');
+
+INSERT INTO Chat_Unban_Requests VALUES ('anne@S012', 'V0042', '2024-04-28 16:30:00', 'Admin321', 'Spamming chat', 'Explained it was a joke and apologized', 'N', NULL);
+
+INSERT INTO Chat_Unban_Requests VALUES ('sykku@S013', 'V0043', '2024-04-29 10:20:00', 'ModeratorABC', 'Offensive language', 'Provided context and apologized', 'Y', '2024-04-29 11:00:00');
+
+INSERT INTO Chat_Unban_Requests VALUES ('amour@S014', 'V0044', '2024-04-30 12:45:00', 'Admin789', 'Trolling', 'Explained it was a misunderstanding', 'N', NULL);
+
+INSERT INTO Chat_Unban_Requests VALUES ('fedm@S015', 'V0045', '2024-05-01 11:00:00', 'ModeratorMNO', 'Posting inappropriate links', 'Claimed unawareness of the rules', 'Y', '2024-05-01 11:45:00');
+
+INSERT INTO Chat_Unban_Requests VALUES ('Jacks@S016', 'V0046', '2024-05-02 09:30:00', 'Admin456', 'Harassment', 'Provided evidence to dispute the claim', 'N', NULL);
+
+INSERT INTO Chat_Unban_Requests VALUES ('marki@S017', 'V0047', '2024-05-03 14:10:00', 'Moderator789', 'Spreading misinformation', 'Apologized and promised to verify information before sharing', 'Y', '2024-05-03 15:00:00');
+
+INSERT INTO Chat_Unban_Requests VALUES ('lupo@S018', 'V0048', '2024-05-04 12:20:00', 'Admin123', 'Sharing personal information', 'Provided reasoning and assured not to repeat', 'N', NULL);
+
+INSERT INTO Chat_Unban_Requests VALUES ('tim@S019', 'V0049', '2024-05-05 11:40:00', 'Moderator321', 'Breaking chat rules', 'Acknowledge mistake and requested a second chance', 'Y', '2024-05-05 12:30:00');
+
+INSERT INTO Chat_Unban_Requests VALUES ('cloak@S020', 'V0050', '2024-05-06 15:50:00', 'AdminXYZ', 'Being disrespectful to other viewers', 'Explained the situation and expressed regret', 'N', NULL);
+
+
+
+
+
+-- Channel_Administrators Relation Insert Queries
+
+INSERT INTO Channel_Administrators VALUES ('A0001', 'V0001', '2023-01-15', 'Moderator', 'Chat moderation', 500, 0);
+INSERT INTO Channel_Administrators VALUES ('A0002', 'V0002', '2023-02-20', 'Administrator', 'Content management', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0003', 'V0003', '2023-03-10', 'Moderator', 'Community engagement', 600, 0);
+INSERT INTO Channel_Administrators VALUES ('A0004', 'V0004', '2023-04-05', 'Administrator', 'Channel growth strategy', 800, 0);
+INSERT INTO Channel_Administrators VALUES ('A0005', 'V0005', '2023-05-12', 'Moderator', 'Viewer interaction', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0006', 'V0006', '2023-06-18', 'Administrator', 'Sponsorship management', 650, 0);
+INSERT INTO Channel_Administrators VALUES ('A0007', 'V0007', '2023-07-22', 'Moderator', 'Event coordination', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0008', 'V0008', '2023-08-30', 'Administrator', 'Channel branding', 750, 0);
+INSERT INTO Channel_Administrators VALUES ('A0009', 'V0009', '2023-09-14', 'Moderator', 'Content scheduling', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0010', 'V0010', '2023-10-25', 'Administrator', 'Partnership management', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0011', 'V0011', '2023-11-07', 'Moderator', 'Promotional campaigns', 650, 0);
+INSERT INTO Channel_Administrators VALUES ('A0012', 'V0012', '2023-12-18', 'Administrator', 'Viewer engagement strategies', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0013', 'V0013', '2024-01-22', 'Moderator', 'Content creation support', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0014', 'V0014', '2024-02-03', 'Administrator', 'Audience analytics', 750, 0);
+INSERT INTO Channel_Administrators VALUES ('A0015', 'V0015', '2024-03-15', 'Moderator', 'Community moderation', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0016', 'V0016', '2024-04-20', 'Administrator', 'Monetization strategies', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0017', 'V0017', '2024-05-25', 'Moderator', 'Content curation', 650, 0);
+INSERT INTO Channel_Administrators VALUES ('A0018', 'V0018', '2024-06-30', 'Administrator', 'Audience engagement campaigns', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0019', 'V0019', '2024-07-15', 'Moderator', 'Live stream management', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0020', 'V0020', '2024-08-30', 'Administrator', 'Channel growth tactics', 750, 0);
+INSERT INTO Channel_Administrators VALUES ('A0021', 'V0021', '2024-09-14', 'Moderator', 'Viewer interaction initiatives', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0022', 'V0022', '2024-10-25', 'Administrator', 'Content optimization', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0023', 'V0023', '2024-11-07', 'Moderator', 'Event planning', 650, 0);
+INSERT INTO Channel_Administrators VALUES ('A0024', 'V0024', '2024-12-18', 'Administrator', 'Sponsorship coordination', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0025', 'V0025', '2025-01-22', 'Moderator', 'Channel community management', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0026', 'V0026', '2025-02-03', 'Administrator', 'Marketing strategies', 750, 0);
+INSERT INTO Channel_Administrators VALUES ('A0027', 'V0027', '2025-03-15', 'Moderator', 'Channel promotion', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0028', 'V0028', '2025-04-20', 'Administrator', 'Content planning', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0029', 'V0029', '2025-05-25', 'Moderator', 'Viewer engagement programs', 650, 0);
+INSERT INTO Channel_Administrators VALUES ('A0030', 'V0030', '2025-06-30', 'Administrator', 'Channel monetization', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0031', 'V0031', '2025-07-15', 'Moderator', 'Live stream moderation', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0032', 'V0032', '2025-08-30', 'Administrator', 'Audience growth tactics', 750, 0);
+INSERT INTO Channel_Administrators VALUES ('A0033', 'V0033', '2025-09-14', 'Moderator', 'Content quality control', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0034', 'V0034', '2025-10-25', 'Administrator', 'Sponsorship management', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0035', 'V0035', '2025-11-07', 'Moderator', 'Social media coordination', 650, 0);
+INSERT INTO Channel_Administrators VALUES ('A0036', 'V0036', '2025-12-18', 'Administrator', 'Channel branding', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0037', 'V0037', '2026-01-22', 'Moderator', 'Audience engagement initiatives', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0038', 'V0038', '2026-02-03', 'Administrator', 'Content creation strategies', 750, 0);
+INSERT INTO Channel_Administrators VALUES ('A0039', 'V0039', '2026-03-15', 'Moderator', 'Event management', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0040', 'V0040', '2026-04-20', 'Administrator', 'Channel monetization tactics', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0041', 'V0041', '2026-05-25', 'Moderator', 'Community engagement initiatives', 650, 0);
+INSERT INTO Channel_Administrators VALUES ('A0042', 'V0042', '2026-06-30', 'Administrator', 'Sponsorship coordination', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0043', 'V0043', '2026-07-15', 'Moderator', 'Channel growth strategies', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0044', 'V0044', '2026-08-30', 'Administrator', 'Audience retention tactics', 750, 0);
+INSERT INTO Channel_Administrators VALUES ('A0045', 'V0045', '2026-09-14', 'Moderator', 'Content planning', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0046', 'V0046', '2026-10-25', 'Administrator', 'Channel optimization', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0047', 'V0047', '2026-11-07', 'Moderator', 'Viewer interaction strategies', 650, 0);
+INSERT INTO Channel_Administrators VALUES ('A0048', 'V0048', '2026-12-18', 'Administrator', 'Live stream coordination', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0049', 'V0049', '2027-01-22', 'Moderator', 'Channel branding initiatives', 700, 0);
+INSERT INTO Channel_Administrators VALUES ('A0050', 'V0050', '2027-02-03', 'Administrator', 'Audience growth campaigns', 750, 0);
+
+
+
+
+
+-- Hires Relation Insert Queries
+
+INSERT INTO Hires VALUES ('pewd@S001', 'A0001', 'V0001', 'Yes');
+INSERT INTO Hires VALUES ('ninja@S002', 'A0002', 'V0002', 'Yes');
+INSERT INTO Hires VALUES ('lirik@S003', 'A0003', 'V0003', 'No');
+INSERT INTO Hires VALUES ('poki@S004', 'A0004', 'V0004', 'Yes');
+INSERT INTO Hires VALUES ('shrou@S005', 'A0005', 'V0005', 'No');
+INSERT INTO Hires VALUES ('valky@S006', 'A0006', 'V0006', 'Yes');
+INSERT INTO Hires VALUES ('drdis@S007', 'A0007', 'V0007', 'No');
+INSERT INTO Hires VALUES ('sum@S008', 'A0008', 'V0008', 'Yes');
+INSERT INTO Hires VALUES ('xqc@S009', 'A0009', 'V0009', 'No');
+INSERT INTO Hires VALUES ('tfue@S010', 'A0010', 'V0010', 'Yes');
+INSERT INTO Hires VALUES ('greek@S011', 'A0011', 'V0011', 'No');
+INSERT INTO Hires VALUES ('anne@S012', 'A0012', 'V0012', 'Yes');
+INSERT INTO Hires VALUES ('sykku@S013', 'A0013', 'V0013', 'No');
+INSERT INTO Hires VALUES ('amour@S014', 'A0014', 'V0014', 'Yes');
+INSERT INTO Hires VALUES ('fedm@S015', 'A0015', 'V0015', 'No');
+INSERT INTO Hires VALUES ('Jacks@S016', 'A0016', 'V0016', 'Yes');
+INSERT INTO Hires VALUES ('marki@S017', 'A0017', 'V0017', 'No');
+INSERT INTO Hires VALUES ('lupo@S018', 'A0018', 'V0018', 'Yes');
+INSERT INTO Hires VALUES ('tim@S019', 'A0019', 'V0019', 'No');
+INSERT INTO Hires VALUES ('cloak@S020', 'A0020', 'V0020', 'Yes');
+
+INSERT INTO Hires VALUES ('annie@S021', 'A0021', 'V0021', 'Yes');
+INSERT INTO Hires VALUES ('corpse@S022', 'A0022', 'V0022', 'No');
+INSERT INTO Hires VALUES ('alinity@S023', 'A0023', 'V0023', 'Yes');
+INSERT INTO Hires VALUES ('ludwig@S024', 'A0024', 'V0024', 'No');
+INSERT INTO Hires VALUES ('mizkif@S025', 'A0025', 'V0025', 'Yes');
+INSERT INTO Hires VALUES ('qtcinderella@S026', 'A0026', 'V0026', 'No');
+INSERT INTO Hires VALUES ('fuslie@S027', 'A0027', 'V0027', 'Yes');
+INSERT INTO Hires VALUES ('alexiaraye@S028', 'A0028', 'V0028', 'No');
+INSERT INTO Hires VALUES ('pokelawls@S029', 'A0029', 'V0029', 'Yes');
+INSERT INTO Hires VALUES ('vinesauce@S030', 'A0030', 'V0030', 'No');
+INSERT INTO Hires VALUES ('juli@S031', 'A0031', 'V0031', 'Yes');
+INSERT INTO Hires VALUES ('scarra@S032', 'A0032', 'V0032', 'No');
+INSERT INTO Hires VALUES ('kacey@S033', 'A0033', 'V0033', 'Yes');
+INSERT INTO Hires VALUES ('asmongold@S034', 'A0034', 'V0034', 'No');
+INSERT INTO Hires VALUES ('coconut@S035', 'A0035', 'V0035', 'Yes');
+INSERT INTO Hires VALUES ('kripp@S036', 'A0036', 'V0036', 'No');
+INSERT INTO Hires VALUES ('reckful@S037', 'A0037', 'V0037', 'Yes');
+INSERT INTO Hires VALUES ('loeya@S038', 'A0038', 'V0038', 'No');
+INSERT INTO Hires VALUES ('towelliee@S039', 'A0039', 'V0039', 'Yes');
+INSERT INTO Hires VALUES ('gronkh@S040', 'A0040', 'V0040', 'No');
+INSERT INTO Hires VALUES ('cdew@S041', 'A0041', 'V0041', 'Yes');
+INSERT INTO Hires VALUES ('melina@S042', 'A0042', 'V0042', 'No');
+INSERT INTO Hires VALUES ('sodapoppin@S043', 'A0043', 'V0043', 'Yes');
+INSERT INTO Hires VALUES ('forsen@S044', 'A0044', 'V0044', 'No');
+INSERT INTO Hires VALUES ('scarlet@S045', 'A0045', 'V0045', 'Yes');
+INSERT INTO Hires VALUES ('asmr@S046', 'A0046', 'V0046', 'No');
+INSERT INTO Hires VALUES ('boogie@S047', 'A0047', 'V0047', 'Yes');
+INSERT INTO Hires VALUES ('annie@S048', 'A0048', 'V0048', 'No');
+INSERT INTO Hires VALUES ('ster@S049', 'A0049', 'V0049', 'Yes');
+INSERT INTO Hires VALUES ('asmong@S050', 'A0050', 'V0050', 'No');
+
+
+
+
+
+
+-- Donations Relation Insert Queries
+
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('pewd@S001', 'V0001', 50, '2024-04-15 08:30:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('ninja@S002', 'V0002', 30, '2024-04-15 09:45:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('lirik@S003', 'V0003', 20, '2024-04-15 10:20:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('poki@S004', 'V0004', 100, '2024-04-15 11:10:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('shrou@S005', 'V0005', 75, '2024-04-15 12:05:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('valky@S006', 'V0006', 40, '2024-04-15 13:30:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('drdis@S007', 'V0007', 25, '2024-04-15 14:15:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('sum@S008', 'V0008', 60, '2024-04-15 15:20:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('xqc@S009', 'V0009', 35, '2024-04-15 16:45:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('tfue@S010', 'V0010', 80, '2024-04-15 17:30:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('greek@S011', 'V0011', 55, '2024-04-15 18:10:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('anne@S012', 'V0012', 45, '2024-04-15 19:00:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('sykku@S013', 'V0013', 30, '2024-04-15 20:20:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('amour@S014', 'V0014', 65, '2024-04-15 21:15:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('fedm@S015', 'V0015', 90, '2024-04-15 22:30:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('Jacks@S016', 'V0016', 75, '2024-04-15 23:45:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('marki@S017', 'V0017', 120, '2024-04-16 00:30:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('lupo@S018', 'V0018', 40, '2024-04-16 01:20:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('tim@S019', 'V0019', 55, '2024-04-16 02:10:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('cloak@S020', 'V0020', 25, '2024-04-16 03:00:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('annie@S021', 'V0021', 70, '2024-04-16 04:15:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('corpse@S022', 'V0022', 85, '2024-04-16 05:30:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('alinity@S023', 'V0023', 95, '2024-04-16 06:45:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('ludwig@S024', 'V0024', 110, '2024-04-16 07:20:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('mizkif@S025', 'V0025', 50, '2024-04-16 08:00:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('qtcinderella@S026', 'V0026', 65, '2024-04-16 09:15:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('fuslie@S027', 'V0027', 30, '2024-04-16 10:30:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('alexiaraye@S028', 'V0028', 40, '2024-04-16 11:45:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('pokelawls@S029', 'V0029', 20, '2024-04-16 12:20:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('vinesauce@S030', 'V0030', 55, '2024-04-16 13:10:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('juli@S031', 'V0031', 75, '2024-04-16 14:00:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('scarra@S032', 'V0032', 65, '2024-04-16 15:15:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('kacey@S033', 'V0033', 80, '2024-04-16 16:30:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('asmongold@S034', 'V0034', 95, '2024-04-16 17:45:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('coconut@S035', 'V0035', 120, '2024-04-16 18:20:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('kripp@S036', 'V0036', 45, '2024-04-16 19:00:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('reckful@S037', 'V0037', 60, '2024-04-16 20:15:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('loeya@S038', 'V0038', 35, '2024-04-16 21:30:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('towelliee@S039', 'V0039', 25, '2024-04-16 22:45:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('gronkh@S040', 'V0040', 40, '2024-04-16 23:20:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('cdew@S041', 'V0041', 85, '2024-04-17 00:00:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('melina@S042', 'V0042', 70, '2024-04-17 01:15:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('sodapoppin@S043', 'V0043', 90, '2024-04-17 02:30:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('forsen@S044', 'V0044', 55, '2024-04-17 03:45:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('scarlet@S045', 'V0045', 120, '2024-04-17 04:20:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('asmr@S046', 'V0046', 85, '2024-04-17 05:00:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('boogie@S047', 'V0047', 65, '2024-04-17 06:15:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('annie@S048', 'V0048', 50, '2024-04-17 07:30:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('ster@S049', 'V0049', 30, '2024-04-17 08:45:00');
+INSERT INTO Donations (StreamerID, ViewerID, Don_Amt, Don_timestamp) VALUES ('asmong@S050', 'V0050', 40, '2024-04-17 09:20:00');
+
+
+
+-- Subscriptions Relation Insert Queries
+
+
+INSERT INTO Subscriptions VALUES ('pewd@S001', 'V0001', '2023-01-01', '2023-12-31', 'Premium');
+INSERT INTO Subscriptions VALUES ('ninja@S002', 'V0002', '2023-02-15', '2023-11-30', 'Standard');
+INSERT INTO Subscriptions VALUES ('lirik@S003', 'V0003', '2023-03-10', '2023-10-31', 'Premium');
+INSERT INTO Subscriptions VALUES ('poki@S004', 'V0004', '2023-04-05', '2023-09-30', 'Standard');
+INSERT INTO Subscriptions VALUES ('shrou@S005', 'V0005', '2023-05-20', '2023-08-31', 'Premium');
+INSERT INTO Subscriptions VALUES ('valky@S006', 'V0006', '2023-06-12', '2023-07-31', 'Standard');
+INSERT INTO Subscriptions VALUES ('drdis@S007', 'V0007', '2023-07-04', '2023-06-30', 'Premium');
+INSERT INTO Subscriptions VALUES ('sum@S008', 'V0008', '2023-08-15', '2023-05-31', 'Standard');
+INSERT INTO Subscriptions VALUES ('xqc@S009', 'V0009', '2023-09-10', '2023-04-30', 'Premium');
+INSERT INTO Subscriptions VALUES ('tfue@S010', 'V0010', '2023-10-25', '2023-03-31', 'Standard');
+INSERT INTO Subscriptions VALUES ('greek@S011', 'V0011', '2023-11-20', '2023-02-28', 'Premium');
+INSERT INTO Subscriptions VALUES ('anne@S012', 'V0012', '2023-12-05', '2023-01-31', 'Standard');
+INSERT INTO Subscriptions VALUES ('sykku@S013', 'V0013', '2024-01-15', '2022-12-31', 'Premium');
+INSERT INTO Subscriptions VALUES ('amour@S014', 'V0014', '2024-02-10', '2022-11-30', 'Standard');
+INSERT INTO Subscriptions VALUES ('fedm@S015', 'V0015', '2024-03-20', '2022-10-31', 'Premium');
+INSERT INTO Subscriptions VALUES ('Jacks@S016', 'V0016', '2024-04-05', '2022-09-30', 'Standard');
+INSERT INTO Subscriptions VALUES ('marki@S017', 'V0017', '2024-05-15', '2022-08-31', 'Premium');
+INSERT INTO Subscriptions VALUES ('lupo@S018', 'V0018', '2024-06-10', '2022-07-31', 'Standard');
+INSERT INTO Subscriptions VALUES ('tim@S019', 'V0019', '2024-07-20', '2022-06-30', 'Premium');
+INSERT INTO Subscriptions VALUES ('cloak@S020', 'V0020', '2024-08-05', '2022-05-31', 'Standard');
+INSERT INTO Subscriptions VALUES ('annie@S021', 'V0021', '2024-09-15', '2022-04-30', 'Premium');
+INSERT INTO Subscriptions VALUES ('corpse@S022', 'V0022', '2024-10-10', '2022-03-31', 'Standard');
+INSERT INTO Subscriptions VALUES ('alinity@S023', 'V0023', '2024-11-25', '2022-02-28', 'Premium');
+INSERT INTO Subscriptions VALUES ('ludwig@S024', 'V0024', '2024-12-20', '2022-01-31', 'Standard');
+INSERT INTO Subscriptions VALUES ('mizkif@S025', 'V0025', '2025-01-15', '2021-12-31', 'Premium');
+INSERT INTO Subscriptions VALUES ('qtcinderella@S026', 'V0026', '2025-02-10', '2021-11-30', 'Standard');
+INSERT INTO Subscriptions VALUES ('fuslie@S027', 'V0027', '2025-03-25', '2021-10-31', 'Premium');
+INSERT INTO Subscriptions VALUES ('alexiaraye@S028', 'V0028', '2025-04-20', '2021-09-30', 'Standard');
+INSERT INTO Subscriptions VALUES ('pokelawls@S029', 'V0029', '2025-05-10', '2021-08-31', 'Premium');
+INSERT INTO Subscriptions VALUES ('vinesauce@S030', 'V0030', '2025-06-05', '2021-07-31', 'Standard');
+INSERT INTO Subscriptions VALUES ('juli@S031', 'V0031', '2025-07-20', '2021-06-30', 'Premium');
+INSERT INTO Subscriptions VALUES ('scarra@S032', 'V0032', '2025-08-15', '2021-05-31', 'Standard');
+INSERT INTO Subscriptions VALUES ('kacey@S033', 'V0033', '2025-09-10', '2021-04-30', 'Premium');
+INSERT INTO Subscriptions VALUES ('asmongold@S034', 'V0034', '2025-10-25', '2021-03-31', 'Standard');
+INSERT INTO Subscriptions VALUES ('coconut@S035', 'V0035', '2025-11-20', '2021-02-28', 'Premium');
+INSERT INTO Subscriptions VALUES ('kripp@S036', 'V0036', '2025-12-05', '2021-01-31', 'Standard');
+INSERT INTO Subscriptions VALUES ('reckful@S037', 'V0037', '2026-01-15', '2020-12-31', 'Premium');
+INSERT INTO Subscriptions VALUES ('loeya@S038', 'V0038', '2026-02-10', '2020-11-30', 'Standard');
+INSERT INTO Subscriptions VALUES ('towelliee@S039', 'V0039', '2026-03-20', '2020-10-31', 'Premium');
+INSERT INTO Subscriptions VALUES ('gronkh@S040', 'V0040', '2026-04-05', '2020-09-30', 'Standard');
+INSERT INTO Subscriptions VALUES ('cdew@S041', 'V0041', '2026-05-15', '2020-08-31', 'Premium');
+INSERT INTO Subscriptions VALUES ('melina@S042', 'V0042', '2026-06-10', '2020-07-31', 'Standard');
+INSERT INTO Subscriptions VALUES ('sodapoppin@S043', 'V0043', '2026-07-20', '2020-06-30', 'Premium');
+INSERT INTO Subscriptions VALUES ('forsen@S044', 'V0044', '2026-08-05', '2020-05-31', 'Standard');
+INSERT INTO Subscriptions VALUES ('scarlet@S045', 'V0045', '2026-09-15', '2020-04-30', 'Premium');
+INSERT INTO Subscriptions VALUES ('asmr@S046', 'V0046', '2026-10-10', '2020-03-31', 'Standard');
+INSERT INTO Subscriptions VALUES ('boogie@S047', 'V0047', '2026-11-25', '2020-02-29', 'Premium'); -- Leap year
+INSERT INTO Subscriptions VALUES ('annie@S048', 'V0048', '2026-12-20', '2020-01-31', 'Standard');
+INSERT INTO Subscriptions VALUES ('ster@S049', 'V0049', '2027-01-15', '2019-12-31', 'Premium');
+INSERT INTO Subscriptions VALUES ('asmong@S050', 'V0050', '2027-02-05', '2019-11-30', 'Standard');
+
+
+
+
+-- Follows Relation Insert Queries
+
+
+INSERT INTO Follows VALUES ('pewd@S001', 'V0001', '2024-01-01', TRUE, NULL);
+INSERT INTO Follows VALUES ('ninja@S002', 'V0002', '2024-01-02', TRUE, NULL);
+INSERT INTO Follows VALUES ('lirik@S003', 'V0003', '2024-01-03', TRUE, NULL);
+INSERT INTO Follows VALUES ('poki@S004', 'V0004', '2024-01-04', TRUE, NULL);
+INSERT INTO Follows VALUES ('shrou@S005', 'V0005', '2024-01-05', TRUE, NULL);
+INSERT INTO Follows VALUES ('valky@S006', 'V0006', '2024-01-06', TRUE, NULL);
+INSERT INTO Follows VALUES ('drdis@S007', 'V0007', '2024-01-07', TRUE, NULL);
+INSERT INTO Follows VALUES ('sum@S008', 'V0008', '2024-01-08', TRUE, NULL);
+INSERT INTO Follows VALUES ('xqc@S009', 'V0009', '2024-01-09', TRUE, NULL);
+INSERT INTO Follows VALUES ('tfue@S010', 'V0010', '2024-01-10', TRUE, NULL);
+INSERT INTO Follows VALUES ('greek@S011', 'V0011', '2024-01-11', TRUE, NULL);
+INSERT INTO Follows VALUES ('anne@S012', 'V0012', '2024-01-12', TRUE, NULL);
+INSERT INTO Follows VALUES ('sykku@S013', 'V0013', '2024-01-13', TRUE, NULL);
+INSERT INTO Follows VALUES ('amour@S014', 'V0014', '2024-01-14', TRUE, NULL);
+INSERT INTO Follows VALUES ('fedm@S015', 'V0015', '2024-01-15', TRUE, NULL);
+INSERT INTO Follows VALUES ('Jacks@S016', 'V0016', '2024-01-16', TRUE, NULL);
+INSERT INTO Follows VALUES ('marki@S017', 'V0017', '2024-01-17', TRUE, NULL);
+INSERT INTO Follows VALUES ('lupo@S018', 'V0018', '2024-01-18', TRUE, NULL);
+INSERT INTO Follows VALUES ('tim@S019', 'V0019', '2024-01-19', TRUE, NULL);
+INSERT INTO Follows VALUES ('cloak@S020', 'V0020', '2024-01-20', TRUE, NULL);
+INSERT INTO Follows VALUES ('annie@S021', 'V0021', '2024-01-21', TRUE, NULL);
+INSERT INTO Follows VALUES ('corpse@S022', 'V0022', '2024-01-22', TRUE, NULL);
+INSERT INTO Follows VALUES ('alinity@S023', 'V0023', '2024-01-23', TRUE, NULL);
+INSERT INTO Follows VALUES ('ludwig@S024', 'V0024', '2024-01-24', TRUE, NULL);
+INSERT INTO Follows VALUES ('mizkif@S025', 'V0025', '2024-01-25', TRUE, NULL);
+INSERT INTO Follows VALUES ('qtcinderella@S026', 'V0026', '2024-01-26', TRUE, NULL);
+INSERT INTO Follows VALUES ('fuslie@S027', 'V0027', '2024-01-27', TRUE, NULL);
+INSERT INTO Follows VALUES ('alexiaraye@S028', 'V0028', '2024-01-28', TRUE, NULL);
+INSERT INTO Follows VALUES ('pokelawls@S029', 'V0029', '2024-01-29', TRUE, NULL);
+INSERT INTO Follows VALUES ('vinesauce@S030', 'V0030', '2024-01-30', TRUE, NULL);
+INSERT INTO Follows VALUES ('juli@S031', 'V0031', '2024-01-31', TRUE, NULL);
+INSERT INTO Follows VALUES ('scarra@S032', 'V0032', '2024-02-01', TRUE, NULL);
+INSERT INTO Follows VALUES ('kacey@S033', 'V0033', '2024-02-02', TRUE, NULL);
+INSERT INTO Follows VALUES ('asmongold@S034', 'V0034', '2024-02-03', TRUE, NULL);
+INSERT INTO Follows VALUES ('coconut@S035', 'V0035', '2024-02-04', TRUE, NULL);
+INSERT INTO Follows VALUES ('kripp@S036', 'V0036', '2024-02-05', TRUE, NULL);
+INSERT INTO Follows VALUES ('reckful@S037', 'V0037', '2024-02-06', TRUE, NULL);
+INSERT INTO Follows VALUES ('loeya@S038', 'V0038', '2024-02-07', TRUE, NULL);
+INSERT INTO Follows VALUES ('towelliee@S039', 'V0039', '2024-02-08', TRUE, NULL);
+INSERT INTO Follows VALUES ('gronkh@S040', 'V0040', '2024-02-09', TRUE, NULL);
+INSERT INTO Follows VALUES ('cdew@S041', 'V0041', '2024-02-10', TRUE, NULL);
+INSERT INTO Follows VALUES ('melina@S042', 'V0042', '2024-02-11', TRUE, NULL);
+INSERT INTO Follows VALUES ('sodapoppin@S043', 'V0043', '2024-02-12', TRUE, NULL);
+INSERT INTO Follows VALUES ('forsen@S044', 'V0044', '2024-02-13', TRUE, NULL);
+INSERT INTO Follows VALUES ('scarlet@S045', 'V0045', '2024-02-14', TRUE, NULL);
+INSERT INTO Follows VALUES ('asmr@S046', 'V0046', '2024-02-15', TRUE, NULL);
+INSERT INTO Follows VALUES ('boogie@S047', 'V0047', '2024-02-16', TRUE, NULL);
+INSERT INTO Follows VALUES ('annie@S048', 'V0048', '2024-02-17', TRUE, NULL);
+INSERT INTO Follows VALUES ('ster@S049', 'V0049', '2024-02-18', TRUE, NULL);
+INSERT INTO Follows VALUES ('asmong@S050', 'V0050', '2024-02-19', TRUE, NULL);
+
+
+
+-- Viewer_Int Relation Insert Queries
+
+
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0001', 'Gaming, Technology, Music');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0002', 'Gaming, Fitness, Movies');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0003', 'Technology, Cooking, Travel');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0004', 'Gaming, Art, Fashion');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0005', 'Gaming, Sports, Music');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0006', 'Technology, Music, Movies');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0007', 'Gaming, Fitness, Technology');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0008', 'Gaming, Cooking, Fashion');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0009', 'Technology, Fitness, Music');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0010', 'Gaming, Sports, Travel');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0011', 'Gaming, Music, Fashion');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0012', 'Technology, Art, Movies');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0013', 'Gaming, Cooking, Travel');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0014', 'Technology, Fitness, Music');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0015', 'Gaming, Sports, Fashion');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0016', 'Gaming, Art, Movies');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0017', 'Technology, Fitness, Music');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0018', 'Gaming, Cooking, Travel');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0019', 'Technology, Art, Fashion');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0020', 'Gaming, Sports, Music');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0021', 'Gaming, Cooking, Movies');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0022', 'Technology, Fitness, Fashion');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0023', 'Gaming, Art, Travel');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0024', 'Technology, Fitness, Music');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0025', 'Gaming, Sports, Fashion');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0026', 'Gaming, Art, Movies');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0027', 'Technology, Cooking, Music');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0028', 'Gaming, Fitness, Fashion');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0029', 'Gaming, Art, Travel');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0030', 'Technology, Cooking, Movies');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0031', 'Gaming, Fitness, Music');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0032', 'Gaming, Art, Fashion');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0033', 'Technology, Cooking, Travel');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0034', 'Gaming, Fitness, Music');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0035', 'Gaming, Art, Movies');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0036', 'Technology, Cooking, Fashion');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0037', 'Gaming, Fitness, Music');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0038', 'Gaming, Art, Travel');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0039', 'Technology, Cooking, Movies');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0040', 'Gaming, Fitness, Music');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0041', 'Gaming, Art, Fashion');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0042', 'Technology, Cooking, Travel');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0043', 'Gaming, Fitness, Music');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0044', 'Gaming, Art, Movies');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0045', 'Technology, Cooking, Fashion');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0046', 'Gaming, Fitness, Music');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0047', 'Gaming, Art, Travel');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0048', 'Technology, Cooking, Movies');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0049', 'Gaming, Fitness, Music');
+INSERT INTO Viewer_Int (UserID, Interests) VALUES ('V0050', 'Gaming, Art, Fashion');
+
+
+
+
+
+-- Chat_Reactions Relation Insert Queries
+
+
+INSERT INTO Chat_Reactions VALUES ('ST001', 'V0001', 'Hello everyone!', 'Like', '2024-01-01 12:01:01');
+INSERT INTO Chat_Reactions VALUES ('ST002', 'V0002', 'Great stream!', 'Love', '2024-01-02 12:02:02');
+INSERT INTO Chat_Reactions VALUES ('ST003', 'V0003', 'Keep up the good work!', 'Like', '2024-01-03 12:03:03');
+INSERT INTO Chat_Reactions VALUES ('ST004', 'V0004', 'Hi there!', 'Heart', '2024-01-04 12:04:04');
+INSERT INTO Chat_Reactions VALUES ('ST005', 'V0005', 'What game is this?', 'Like', '2024-01-05 12:05:05');
+INSERT INTO Chat_Reactions VALUES ('ST006', 'V0006', 'You are awesome!', 'Love', '2024-01-06 12:06:06');
+INSERT INTO Chat_Reactions VALUES ('ST007', 'V0007', 'Greetings from Brazil!', 'Like', '2024-01-07 12:07:07');
+INSERT INTO Chat_Reactions VALUES ('ST008', 'V0008', 'I love this community!', 'Heart', '2024-01-08 12:08:08');
+INSERT INTO Chat_Reactions VALUES ('ST009', 'V0009', 'Keep it going!', 'Like', '2024-01-09 12:09:09');
+INSERT INTO Chat_Reactions VALUES ('ST010', 'V0010', 'This is so fun!', 'Love', '2024-01-10 12:10:10');
+INSERT INTO Chat_Reactions VALUES ('ST011', 'V0011', 'Cheers from Canada!', 'Like', '2024-01-11 12:11:11');
+INSERT INTO Chat_Reactions VALUES ('ST012', 'V0012', 'Nice gameplay!', 'Heart', '2024-01-12 12:12:12');
+INSERT INTO Chat_Reactions VALUES ('ST013', 'V0013', 'I learned a lot!', 'Like', '2024-01-13 12:13:13');
+INSERT INTO Chat_Reactions VALUES ('ST014', 'V0014', 'Can you play this song?', 'Love', '2024-01-14 12:14:14');
+INSERT INTO Chat_Reactions VALUES ('ST015', 'V0015', 'Greetings from Sweden!', 'Like', '2024-01-15 12:15:15');
+INSERT INTO Chat_Reactions VALUES ('ST016', 'V0016', 'This stream is entertaining!', 'Heart', '2024-01-16 12:16:16');
+INSERT INTO Chat_Reactions VALUES ('ST017', 'V0017', 'Keep up the good vibes!', 'Like', '2024-01-17 12:17:17');
+INSERT INTO Chat_Reactions VALUES ('ST018', 'V0018', 'You are amazing!', 'Love', '2024-01-18 12:18:18');
+INSERT INTO Chat_Reactions VALUES ('ST019', 'V0019', 'What game is this?', 'Like', '2024-01-19 12:19:19');
+INSERT INTO Chat_Reactions VALUES ('ST020', 'V0020', 'Hi from Australia!', 'Heart', '2024-01-20 12:20:20');
+INSERT INTO Chat_Reactions VALUES ('ST021', 'V0021', 'Awesome gameplay!', 'Like', '2024-01-21 12:21:21');
+INSERT INTO Chat_Reactions VALUES ('ST022', 'V0022', 'Can you teach me?', 'Love', '2024-01-22 12:22:22');
+INSERT INTO Chat_Reactions VALUES ('ST023', 'V0023', 'This streamer is funny!', 'Like', '2024-01-23 12:23:23');
+INSERT INTO Chat_Reactions VALUES ('ST024', 'V0024', 'Best stream ever!', 'Heart', '2024-01-24 12:24:24');
+INSERT INTO Chat_Reactions VALUES ('ST025', 'V0025', 'Greetings from India!', 'Like', '2024-01-25 12:25:25');
+INSERT INTO Chat_Reactions VALUES ('ST026', 'V0026', 'I love your energy!', 'Love', '2024-01-26 12:26:26');
+INSERT INTO Chat_Reactions VALUES ('ST027', 'V0027', 'Keep rocking!', 'Like', '2024-01-27 12:27:27');
+INSERT INTO Chat_Reactions VALUES ('ST028', 'V0028', 'This chat is so lively!', 'Heart', '2024-01-28 12:28:28');
+INSERT INTO Chat_Reactions VALUES ('ST029', 'V0029', 'You inspire me!', 'Like', '2024-01-29 12:29:29');
+INSERT INTO Chat_Reactions VALUES ('ST030', 'V0030', 'Hi from the Philippines!', 'Love', '2024-01-30 12:30:30');
+INSERT INTO Chat_Reactions VALUES ('ST031', 'V0031', 'Can you play my request?', 'Like', '2024-01-31 12:31:31');
+INSERT INTO Chat_Reactions VALUES ('ST032', 'V0032', 'This streamer is underrated!', 'Heart', '2024-02-01 12:32:32');
+INSERT INTO Chat_Reactions VALUES ('ST033', 'V0033', 'I been a fan for years!', 'Like', '2024-02-02 12:33:33');
+INSERT INTO Chat_Reactions VALUES ('ST034', 'V0034', 'You make my day better!', 'Love', '2024-02-03 12:34:34');
+INSERT INTO Chat_Reactions VALUES ('ST035', 'V0035', 'Hi from Russia!', 'Like', '2024-02-04 12:35:35');
+INSERT INTO Chat_Reactions VALUES ('ST036', 'V0036', 'This community is so friendly!', 'Heart', '2024-02-05 12:36:36');
+INSERT INTO Chat_Reactions VALUES ('ST037', 'V0037', 'Keep up the great work!', 'Like', '2024-02-06 12:37:37');
+INSERT INTO Chat_Reactions VALUES ('ST038', 'V0038', 'Your my favorite streamer!', 'Love', '2024-02-07 12:38:38');
+INSERT INTO Chat_Reactions VALUES ('ST039', 'V0039', 'What game is this?', 'Like', '2024-02-08 12:39:39');
+INSERT INTO Chat_Reactions VALUES ('ST040', 'V0040', 'Hello from Germany!', 'Heart', '2024-02-09 12:40:40');
+INSERT INTO Chat_Reactions VALUES ('ST041', 'V0041', 'Youre so talented!', 'Like', '2024-02-10 12:41:41');
+INSERT INTO Chat_Reactions VALUES ('ST042', 'V0042', 'I enjoy watching you!', 'Love', '2024-02-11 12:42:42');
+INSERT INTO Chat_Reactions VALUES ('ST043', 'V0043', 'Greetings from Italy!', 'Like', '2024-02-12 12:43:43');
+INSERT INTO Chat_Reactions VALUES ('ST044', 'V0044', 'Youre the best!', 'Heart', '2024-02-13 12:44:44');
+INSERT INTO Chat_Reactions VALUES ('ST045', 'V0045', 'Im a new follower!', 'Like', '2024-02-14 12:45:45');
+INSERT INTO Chat_Reactions VALUES ('ST046', 'V0046', 'You make streaming look easy!', 'Love', '2024-02-15 12:46:46');
+INSERT INTO Chat_Reactions VALUES ('ST047', 'V0047', 'Hi from the UK!', 'Like', '2024-02-16 12:47:47');
+INSERT INTO Chat_Reactions VALUES ('ST048', 'V0048', 'I look up to you!', 'Heart', '2024-02-17 12:48:48');
+INSERT INTO Chat_Reactions VALUES ('ST049', 'V0049', 'Keep entertaining us!', 'Like', '2024-02-18 12:49:49');
+INSERT INTO Chat_Reactions VALUES ('ST050', 'V0050', 'Youre a legend!', 'Love', '2024-02-19 12:50:50');
+
+
+
+
+
+-- Stream_Analytics Relation Insert Queries
+
+
+INSERT INTO Stream_Analytics VALUES ('ST001', 1000, 800, 50, 100, 20, '00:30:00', 10);
+INSERT INTO Stream_Analytics VALUES ('ST002', 1500, 1200, 80, 70, 25, '00:25:00', 15);
+INSERT INTO Stream_Analytics VALUES ('ST003', 2000, 1800, 100,63, 30, '00:35:00', 20);
+INSERT INTO Stream_Analytics VALUES ('ST004', 1200, 1000, 60,56, 15, '00:20:00', 8);
+INSERT INTO Stream_Analytics VALUES ('ST005', 800, 700, 40,200, 10, '00:22:00', 5);
+INSERT INTO Stream_Analytics VALUES ('ST006', 1800, 1500, 90,300, 35, '00:40:00', 18);
+INSERT INTO Stream_Analytics VALUES ('ST007', 2500, 2200, 120,1000, 40, '00:45:00', 25);
+INSERT INTO Stream_Analytics VALUES ('ST008', 1400, 1100, 70,12, 20, '00:30:00', 12);
+INSERT INTO Stream_Analytics VALUES ('ST009', 2200, 1900, 110,47, 45, '00:55:00', 22);
+INSERT INTO Stream_Analytics VALUES ('ST010', 1600, 1400, 80,3200, 30, '00:35:00', 15);
+INSERT INTO Stream_Analytics VALUES ('ST011', 2000, 1700, 100,1156, 35, '00:40:00', 18);
+INSERT INTO Stream_Analytics VALUES ('ST012', 2300, 2000, 120,322, 40, '00:45:00', 20);
+INSERT INTO Stream_Analytics VALUES ('ST013', 1100, 900, 50,59, 15, '00:25:00', 8);
+INSERT INTO Stream_Analytics VALUES ('ST014', 1700, 1500, 90,17, 30, '00:35:00', 15);
+INSERT INTO Stream_Analytics VALUES ('ST015', 2100, 1800, 110,23, 35, '00:40:00', 18);
+INSERT INTO Stream_Analytics VALUES ('ST016', 2400, 2000, 120,22, 40, '00:45:00', 20);
+INSERT INTO Stream_Analytics VALUES ('ST017', 1300, 1100, 70,780, 20, '00:30:00', 12);
+INSERT INTO Stream_Analytics VALUES ('ST018', 1900, 1600, 100,590, 35, '00:40:00', 18);
+INSERT INTO Stream_Analytics VALUES ('ST019', 1800, 1500, 90, 456, 30, '00:35:00', 15);
+INSERT INTO Stream_Analytics VALUES ('ST020', 2500, 2200, 120,2001, 40, '00:45:00', 20);
+INSERT INTO Stream_Analytics VALUES ('ST021', 1200, 1000, 60,1562, 15, '00:20:00', 8);
+INSERT INTO Stream_Analytics VALUES ('ST022', 2000, 1700, 100,24, 35, '00:40:00', 18);
+INSERT INTO Stream_Analytics VALUES ('ST023', 2300, 2000, 120,433, 40, '00:45:00', 20);
+INSERT INTO Stream_Analytics VALUES ('ST024', 1400, 1200, 80,87, 25, '00:25:00', 15);
+INSERT INTO Stream_Analytics VALUES ('ST025', 1800, 1500, 90,809, 30, '00:35:00', 15);
+INSERT INTO Stream_Analytics VALUES ('ST026', 1600, 1300, 70,99, 20, '00:30:00', 12);
+INSERT INTO Stream_Analytics VALUES ('ST027', 1900, 1600, 100,723, 35, '00:40:00', 18);
+INSERT INTO Stream_Analytics VALUES ('ST028', 2200, 1900, 110,453, 45, '00:55:00', 22);
+INSERT INTO Stream_Analytics VALUES ('ST029', 1200, 1000, 60,334, 15, '00:20:00', 8);
+INSERT INTO Stream_Analytics VALUES ('ST030', 2000, 1700, 100,678, 35, '00:40:00', 18);
+INSERT INTO Stream_Analytics VALUES ('ST031', 2300, 2000, 120,48, 40, '00:45:00', 20);
+INSERT INTO Stream_Analytics VALUES ('ST032', 1400, 1200, 80,2078, 25, '00:25:00', 15);
+INSERT INTO Stream_Analytics VALUES ('ST033', 1800, 1500, 90,433, 30, '00:35:00', 15);
+INSERT INTO Stream_Analytics VALUES ('ST034', 1100, 900, 50,546, 15, '00:25:00', 8);
+INSERT INTO Stream_Analytics VALUES ('ST035', 1700, 1400, 80, 222, 30, '00:35:00', 15);
+INSERT INTO Stream_Analytics VALUES ('ST036', 2000, 1700, 100,690, 35, '00:40:00', 18);
+INSERT INTO Stream_Analytics VALUES ('ST037', 2500, 2200, 120,808, 40, '00:45:00', 20);
+INSERT INTO Stream_Analytics VALUES ('ST038', 1400, 1200, 80,524, 25, '00:25:00', 15);
+INSERT INTO Stream_Analytics VALUES ('ST039', 1800, 1500, 90,675, 30, '00:35:00', 15);
+INSERT INTO Stream_Analytics VALUES ('ST040', 1600, 1300, 70,700, 20, '00:30:00', 12);
+INSERT INTO Stream_Analytics VALUES ('ST041', 2000, 1700, 100,556, 35, '00:40:00', 18);
+INSERT INTO Stream_Analytics VALUES ('ST042', 2300, 2000, 120,999, 40, '00:45:00', 20);
+INSERT INTO Stream_Analytics VALUES ('ST043', 1100, 900, 50,723, 15, '00:25:00', 8);
+INSERT INTO Stream_Analytics VALUES ('ST044', 1700, 1400, 80,50, 30, '00:35:00', 15);
+INSERT INTO Stream_Analytics VALUES ('ST045', 2100, 1800, 110,567, 35, '00:40:00', 18);
+INSERT INTO Stream_Analytics VALUES ('ST046', 2400, 2000, 120, 877, 40, '00:45:00', 20);
+INSERT INTO Stream_Analytics VALUES ('ST047', 1300, 1100, 70,1300, 20, '00:30:00', 12);
+INSERT INTO Stream_Analytics VALUES ('ST048', 1900, 1600, 100,1865, 35, '00:40:00', 18);
+INSERT INTO Stream_Analytics VALUES ('ST049', 1800, 1500, 90,533, 30, '00:35:00', 15);
+INSERT INTO Stream_Analytics VALUES ('ST050', 2500, 2200, 120,2222, 40, '00:45:00', 20);
+
+
+-- Watches Relation Insert Queries
+
+INSERT INTO Watches VALUES('ST001','V0001','00:59:23');
+INSERT INTO Watches VALUES('ST002', 'V0002', '00:20:45');
+INSERT INTO Watches VALUES('ST003', 'V0003', '00:30:10');
+INSERT INTO Watches VALUES('ST004', 'V0004', '00:25:20');
+INSERT INTO Watches VALUES('ST005', 'V0005', '00:15:35');
+INSERT INTO Watches VALUES('ST006', 'V0006', '00:12:50');
+INSERT INTO Watches VALUES('ST007', 'V0007', '00:50:05');
+INSERT INTO Watches VALUES('ST008', 'V0008', '00:32:40');
+INSERT INTO Watches VALUES('ST009', 'V0009', '00:27:15');
+INSERT INTO Watches VALUES('ST010', 'V0010', '00:45:55');
+INSERT INTO Watches VALUES('ST011', 'V0011', '00:05:30');
+INSERT INTO Watches VALUES('ST012', 'V0012', '00:28:20');
+INSERT INTO Watches VALUES('ST013', 'V0013', '00:47:05');
+INSERT INTO Watches VALUES('ST014', 'V0014', '00:11:40');
+INSERT INTO Watches VALUES('ST015', 'V0015', '00:50:30');
+INSERT INTO Watches VALUES('ST016', 'V0016', '00:37:20');
+INSERT INTO Watches VALUES('ST017', 'V0017', '00:24:05');
+INSERT INTO Watches VALUES('ST018', 'V0018', '00:45:10');
+INSERT INTO Watches VALUES('ST019', 'V0019', '00:14:30');
+INSERT INTO Watches VALUES('ST020', 'V0020', '00:20:05');
+INSERT INTO Watches VALUES('ST021', 'V0021', '00:35:20');
+INSERT INTO Watches VALUES('ST022', 'V0022', '00:18:40');
+INSERT INTO Watches VALUES('ST023', 'V0023', '00:42:55');
+INSERT INTO Watches VALUES('ST024', 'V0024', '00:30:15');
+INSERT INTO Watches VALUES('ST025', 'V0025', '00:49:10');
+INSERT INTO Watches VALUES('ST026', 'V0026', '00:39:25');
+INSERT INTO Watches VALUES('ST027', 'V0027', '00:16:40');
+INSERT INTO Watches VALUES('ST028', 'V0028', '00:36:50');
+INSERT INTO Watches VALUES('ST029', 'V0029', '00:12:05');
+INSERT INTO Watches VALUES('ST030', 'V0030', '00:50:15');
+INSERT INTO Watches VALUES('ST031', 'V0031', '00:21:30');
+INSERT INTO Watches VALUES('ST032', 'V0032', '00:48:45');
+INSERT INTO Watches VALUES('ST033', 'V0033', '00:33:40');
+INSERT INTO Watches VALUES('ST034', 'V0034', '00:22:20');
+INSERT INTO Watches VALUES('ST035', 'V0035', '00:15:05');
+INSERT INTO Watches VALUES('ST036', 'V0036', '00:38:30');
+INSERT INTO Watches VALUES('ST037', 'V0037', '00:45:15');
+INSERT INTO Watches VALUES('ST038', 'V0038', '00:18:55');
+INSERT INTO Watches VALUES('ST039', 'V0039', '00:32:20');
+INSERT INTO Watches VALUES('ST040', 'V0040', '00:28:15');
+INSERT INTO Watches VALUES('ST041', 'V0041', '00:42:35');
+INSERT INTO Watches VALUES('ST042', 'V0042', '00:35:50');
+INSERT INTO Watches VALUES('ST043', 'V0043', '00:23:05');
+INSERT INTO Watches VALUES('ST044', 'V0044', '00:47:35');
+INSERT INTO Watches VALUES('ST045', 'V0045', '00:25:45');
+INSERT INTO Watches VALUES('ST046', 'V0046', '00:30:30');
+INSERT INTO Watches VALUES('ST047', 'V0047', '00:49:55');
+INSERT INTO Watches VALUES('ST048', 'V0048', '00:27:25');
+INSERT INTO Watches VALUES('ST049', 'V0049', '00:14:50');
+INSERT INTO Watches VALUES('ST050', 'V0050', '00:59:23');
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+
